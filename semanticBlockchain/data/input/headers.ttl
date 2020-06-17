@@ -1,0 +1,7 @@
+@prefix ethon: <http://ethon.consensys.net/> .
+@prefix ibb: <http://ethon.consensys.net/Block#> .
+@prefix ibu: <http://ethon.consensys.net/Uncle#> .
+@prefix ibs: <http://ethon.consensys.net/State#> .
+@prefix tx: <http://ethon.consensys.net/Tx#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
