@@ -62,7 +62,8 @@ function tripleize (data, template){
     var result = template(properties);
     var header = fs.readFileSync('../data/input/headers.ttl', 'utf8');
     //console.log(header)
-     fs.appendFileSync('../data/output/output.ttl', result  +"\r\n");  
+   // fs.writeFileSync('../data/output/output.ttl', header  +"\r\n");
+    fs.appendFileSync('../data/output/output.ttl', result  +"\r\n");  
     
 }
 

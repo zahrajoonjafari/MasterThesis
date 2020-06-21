@@ -1,0 +1,137 @@
+\chapter{Smart Contract code in solidity}
+\small
+\vspace*{0.2in}
+
+\begin{lstlisting}
+
+pragma solidity ^0.4.18;
+
+// construct contract that update and track goods throughout ShipmentTracking
+// and automatically execute payment
+
+contract GoodTracking {
+uint[] conLoc; // array containing latitude & longitude
+uint conTime;
+uint conPayment;   // in token
+address sender;
+mapping(address => uint) balances; 
+mapping(string => good) goods;
+mapping (address => uint) totalShipped; // total number of all shipments
+mapping (address => uint) successShipped; // Shipment successfully are completed
+
+// events to display messages when certain transactions are executed
+event Success(
+string _msg,
+string packageId,
+uint[] location,
+uint timestamp,
+address sender
+);
+
+event Payment(
+string _msg,
+address _from,
+address _to, 
+uint _amount
+);
+
+event Failure(
+string _msg
+);
+
+// function to amount of tokens from one account to another
+function arrivedToken(address _from, address _to, uint _amount)
+public returns (bool success) {
+if (balances[_from] < _amount) {
+
+Failure('Insufficient funds to send payment');
+return false;
+
+}
+balances[_from] -= _amount;
+balances[_to] += _amount;
+Payment('Payment sent', _from, _to, _amount);
+return true;
+}
+
+// function to show token balance 
+function getBalance(address _account) public returns (uint _balance) {
+
+return balances[_account];
+}
+
+struct good{
+string item;
+uint  quantity;
+uint[] location;
+uint  timestamp;
+address sender;
+}
+
+//function for displaying details of sent shipment 
+
+function sendGood(
+string  packageId,
+uint  _quanitity,
+uint[]  _location,
+string  _item,
+uint _departure
+)public returns(bool success){
+
+goods[packageId].item = _item;
+goods[packageId].quantity = _quanitity;
+goods[packageId].location = _location;
+Success('Item shipped', packageId,  _location, 
+_departure = now, msg.sender);
+return true;
+}
+
+// function for displaying details of received shipment
+
+function arrivedGood(
+string _item,
+string packageId,
+uint _quantity,
+uint[] _location,
+uint _arrival
+) public returns (bool success)  {
+
+if (sha3(goods[packageId].item) == sha3(_item) && goods[packageId].quantity == _quantity) {
+Success('Item shipped', packageId, _location, _arrival = now, msg.sender);
+} 
+
+if( _arrival <= _arrival + conTime && _location[0] == conLoc[0] &&
+_location[1] == conLoc[1]){
+
+arrivedToken(sender, goods[packageId].sender, conPayment);
+} else {
+Failure('Payment not triggered as criteria not met');
+}
+
+return true;
+}
+// Gets all the details for each shipment
+
+function getDetails(string packageId)
+public constant returns( string, uint, uint[],uint,  address)
+
+{
+return (
+goods[packageId].item,
+goods[packageId].quantity,
+goods[packageId].location,
+goods[packageId].timestamp,
+goods[packageId].sender
+);
+}
+
+// function to display number of successfully shipments and total shipments
+function ckeckSuccess(address _sender) public returns (uint, uint)
+
+    {
+         return (successShipped[_sender], totalShipped[_sender]);
+      }
+
+}
+
+\end{lstlisting}
