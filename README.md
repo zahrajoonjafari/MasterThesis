@@ -1,6 +1,6 @@
 # Semantic Blockchain:
- ## Node.js v9.5.0 (should work with current version from https://nodejs.org/en/)
- ## Apache Jena 3.7.0 ARQ
+ # Node.js v9.5.0 (should work with current version from https://nodejs.org/en/)
+ # Apache Jena 3.7.0 ARQ
 
 ## Usage
 
@@ -8,5 +8,5 @@ To produce triple using EthOn ontology for transactions:
  - cd scripts
  - node tripleize.js
  - cd ..
- - arq --data=../data/output/output.ttl   --query=types.rq > test.txt
- - less test.txt
+ - arq --data=../data/output/output.ttl   --query=types.rq 
+ 
