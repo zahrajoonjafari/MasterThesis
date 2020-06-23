@@ -24,12 +24,12 @@
 \contentsline {section}{\numberline {1.5}Ethereum}{12}{section.1.5}
 \contentsline {subsection}{\numberline {1.5.1}Gas}{13}{subsection.1.5.1}
 \contentsline {subsection}{\numberline {1.5.2}Account}{13}{subsection.1.5.2}
-\contentsline {subsection}{\numberline {1.5.3}Message}{13}{subsection.1.5.3}
+\contentsline {subsection}{\numberline {1.5.3}Message}{14}{subsection.1.5.3}
 \contentsline {subsection}{\numberline {1.5.4}Ethereumt Virtual Machine(EVM)}{14}{subsection.1.5.4}
 \contentsline {subsection}{\numberline {1.5.5}Solidity}{14}{subsection.1.5.5}
-\contentsline {section}{\numberline {1.6}smart contract}{14}{section.1.6}
+\contentsline {section}{\numberline {1.6}smart contract}{15}{section.1.6}
 \contentsline {subsection}{\numberline {1.6.1}Security in Smart contract}{16}{subsection.1.6.1}
-\contentsline {subsection}{\numberline {1.6.2}Vulnerabilities in Ethereum Smart Contracts}{16}{subsection.1.6.2}
+\contentsline {subsection}{\numberline {1.6.2}Vulnerabilities in Ethereum Smart Contracts}{17}{subsection.1.6.2}
 \contentsline {chapter}{\numberline {2}Blockchain as the infrastructure of semantic web}{19}{chapter.2}
 \contentsline {section}{\numberline {2.1}Distributed ledgers and indexing}{19}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Why do we use ontology for Blockchain?}{19}{subsection.2.1.1}

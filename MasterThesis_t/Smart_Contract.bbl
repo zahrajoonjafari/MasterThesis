@@ -13,8 +13,8 @@ Alfonso~Panarello, Nachiket~Tapas, G. M. F.~L. and Puliafito, A. (2018).
 \bibitem[Allan~Third, 2017]{Third}
 Allan~Third, J.~D. (2017).
 \newblock Linked data indexing of distributed ledgers.
-\newblock In {\em WWW 17 Companion Proceedings of the 26th International
-  Conference on World Wide Web Companion}, volume~8.
+\newblock In {\em Companion Proceedings of the 26th International Conference on
+  World Wide Web Companion}, volume~8.
 
 \bibitem[Antono Lucas~Soares and de~Sousa, 1999]{Sousa}
 Antono Lucas~Soares, A. L.~A. and de~Sousa, J.~P. (1999).
@@ -32,8 +32,8 @@ Christidis, K. and Sevetsikioti, M. (2016).
 \newblock Blockchains and smart contracts forthe internet of things.
 \newblock page~12.
 
-\bibitem[Cribäck, 2018]{Kevin}
-Cribäck, K. (2018).
+\bibitem[Criback, 2018]{Kevin}
+Criback, K. (2018).
 \newblock Micro payment, viable technical platforms and models for a bank to
   provide payments on micro amounts.
 
@@ -111,8 +111,8 @@ Lin, A. M.~W. and Madni, C. (2000).
   managing collaborative distributed enterprises.
 \newblock page~14.
 
-\bibitem[Markos, 2012]{Markos}
-Markos, K. (2012).
+\bibitem[Markos, 2019]{Markos}
+Markos, K. (2019).
 \newblock Indexes for blockchain data.
 
 \bibitem[Md~Nazmul~Islam, 2018]{Nazmul}
@@ -131,7 +131,7 @@ Mike~Uschold, Martin~King, S. M. Y.~Z. (1996).
 
 \bibitem[Mirek~Sopek, 2018]{Sopek}
 Mirek~Sopek, Przemyslaw~Gradzki, W. K. D. K. R. T. R.~T. (2018).
-\newblock Www 18 companion proceedings of the the web conference 2018.
+\newblock Companion proceedings of the the web conference 2018.
 \newblock In {\em GraphChain – A Distributed Database with Explicit Semantics
   and Chained RDF Graphs}, volume~8.
 

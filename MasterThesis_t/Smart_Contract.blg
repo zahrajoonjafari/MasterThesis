@@ -13,65 +13,61 @@ A level-1 auxiliary file: appendix1.aux
 A level-1 auxiliary file: appendix2.aux
 The style file: apalike.bst
 Database file #1: biblio.bib
-Warning--entry type for "Markos" isn't style-file defined
---line 26 of file biblio.bib
 Warning--entry type for "Christidis" isn't style-file defined
---line 43 of file biblio.bib
-I was expecting a `,' or a `}'---line 69 of file biblio.bib
+--line 37 of file biblio.bib
+I was expecting a `,' or a `}'---line 63 of file biblio.bib
  :  
  :  volume  = 12,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 78 of file biblio.bib
+I was expecting a `,' or a `}'---line 72 of file biblio.bib
  :  
  :  volume  = 12,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 87 of file biblio.bib
+I was expecting a `,' or a `}'---line 81 of file biblio.bib
  :  
  :  volume  = 36,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 108 of file biblio.bib
+I was expecting a `,' or a `}'---line 102 of file biblio.bib
  :  
  :  volume = 15,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "Panarello" isn't style-file defined
---line 131 of file biblio.bib
+--line 125 of file biblio.bib
 Warning--I'm ignoring Sopek's extra "year" field
---line 175 of file biblio.bib
-I was expecting a `,' or a `}'---line 198 of file biblio.bib
+--line 169 of file biblio.bib
+I was expecting a `,' or a `}'---line 192 of file biblio.bib
  :  
  :  month        = 2,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 227 of file biblio.bib
+I was expecting a `,' or a `}'---line 221 of file biblio.bib
  :  pages = 327
  :             –332
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 257 of file biblio.bib
+I was expecting a `,' or a `}'---line 251 of file biblio.bib
  :  
  :  pages={164-184}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 267 of file biblio.bib
+I was expecting a `,' or a `}'---line 261 of file biblio.bib
  :  
  :  volume = {700},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 270 of file biblio.bib
- : @masterthesis{Markos
- :                     ,
-I'm skipping whatever remains of this entry
+Warning--entry type for "Markos" isn't style-file defined
+--line 264 of file biblio.bib
 Warning--entry type for "Kevin" isn't style-file defined
---line 278 of file biblio.bib
-I was expecting a `,' or a `}'---line 319 of file biblio.bib
+--line 272 of file biblio.bib
+I was expecting a `,' or a `}'---line 313 of file biblio.bib
  :  
  :  valume= 2,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 390 of file biblio.bib
+I was expecting a `,' or a `}'---line 384 of file biblio.bib
  :  
  :  DOI = {10.1016/j.compind.2010.05.006}
 (Error may have been on previous line)
@@ -243,7 +239,7 @@ while executing---line 1098 of file apalike.bst
 Warning--empty journal in Ye
 You've used 38 entries,
             1935 wiz_defined-function locations,
-            681 strings with 8858 characters,
+            681 strings with 8843 characters,
 and the built_in function-call counts, 12044 in all, are:
 = -- 1132
 > -- 375
@@ -282,4 +278,4 @@ warning$ -- 37
 while$ -- 91
 width$ -- 0
 write$ -- 429
-(There were 74 error messages)
+(There were 73 error messages)
