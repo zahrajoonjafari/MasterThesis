@@ -14,66 +14,55 @@ A level-1 auxiliary file: appendix2.aux
 The style file: apalike.bst
 Database file #1: biblio.bib
 Warning--entry type for "Christidis" isn't style-file defined
---line 37 of file biblio.bib
-I was expecting a `,' or a `}'---line 63 of file biblio.bib
+--line 36 of file biblio.bib
+I was expecting a `,' or a `}'---line 70 of file biblio.bib
  :  
  :  volume  = 12,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 72 of file biblio.bib
- :  
- :  volume  = 12,
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 81 of file biblio.bib
+I was expecting a `,' or a `}'---line 79 of file biblio.bib
  :  
  :  volume  = 36,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 102 of file biblio.bib
- :  
- :  volume = 15,
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Warning--entry type for "Panarello" isn't style-file defined
---line 125 of file biblio.bib
+--line 122 of file biblio.bib
 Warning--I'm ignoring Sopek's extra "year" field
---line 169 of file biblio.bib
-I was expecting a `,' or a `}'---line 192 of file biblio.bib
+--line 166 of file biblio.bib
+I was expecting a `,' or a `}'---line 189 of file biblio.bib
  :  
  :  month        = 2,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 221 of file biblio.bib
+I was expecting a `,' or a `}'---line 218 of file biblio.bib
  :  pages = 327
  :             –332
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 251 of file biblio.bib
+I was expecting a `,' or a `}'---line 248 of file biblio.bib
  :  
  :  pages={164-184}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 261 of file biblio.bib
+I was expecting a `,' or a `}'---line 258 of file biblio.bib
  :  
  :  volume = {700},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "Markos" isn't style-file defined
---line 264 of file biblio.bib
+--line 261 of file biblio.bib
 Warning--entry type for "Kevin" isn't style-file defined
---line 272 of file biblio.bib
-I was expecting a `,' or a `}'---line 313 of file biblio.bib
+--line 269 of file biblio.bib
+I was expecting a `,' or a `}'---line 310 of file biblio.bib
  :  
  :  valume= 2,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 384 of file biblio.bib
+I was expecting a `,' or a `}'---line 381 of file biblio.bib
  :  
  :  DOI = {10.1016/j.compind.2010.05.006}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Egbertseng"
-Warning--I didn't find a database entry for "Matthew"
 Too many commas in name 1 of "Alfonso Panarello, Nachiket Tapas, Giovanni Merlino, Francesco Longo and Antonio Puliafito" for entry Panarello
 while executing---line 1023 of file apalike.bst
 Too many commas in name 1 of "Alfonso Panarello, Nachiket Tapas, Giovanni Merlino, Francesco Longo and Antonio Puliafito" for entry Panarello
@@ -89,6 +78,10 @@ while executing---line 1023 of file apalike.bst
 Name 1 in "Ilya Grishchenko, Matteo Maffei, and Clara Schneidewind" has a comma at the end for entry Ilya
 while executing---line 1023 of file apalike.bst
 Name 1 in "Ilya Grishchenko, Matteo Maffei, and Clara Schneidewind" has a comma at the end for entry Ilya
+while executing---line 1023 of file apalike.bst
+Name 1 in "Matthew English1, Soren Auer1, and John Domingue2" has a comma at the end for entry Matthew
+while executing---line 1023 of file apalike.bst
+Name 1 in "Matthew English1, Soren Auer1, and John Domingue2" has a comma at the end for entry Matthew
 while executing---line 1023 of file apalike.bst
 Too many commas in name 1 of "Mirek Sopek, Przemyslaw Gradzki, Witold Kosowski , Dominik Kozuski, Rafa Troczak, Robert Trypuz" for entry Sopek
 while executing---line 1023 of file apalike.bst
@@ -200,6 +193,9 @@ Warning--empty journal in Lin
 Name 1 in "Azad Madni Weiwen Lin, and Carla Madni" has a comma at the end for entry Madni
 while executing---line 1098 of file apalike.bst
 Warning--empty journal in Madni
+Name 1 in "Matthew English1, Soren Auer1, and John Domingue2" has a comma at the end for entry Matthew
+while executing---line 1098 of file apalike.bst
+Warning--empty journal in Matthew
 Warning--empty journal in Nazmul
 Name 1 in "Michele Ruta, Floriano Scioscia, Saverio Ieva, Giovanna Capurso, Agnese Pinto, and Eugenio Di Sciascio" has a comma at the end for entry Ruta
 while executing---line 1098 of file apalike.bst
@@ -207,7 +203,6 @@ Too many commas in name 1 of "Michele Ruta, Floriano Scioscia, Saverio Ieva, Gio
 while executing---line 1098 of file apalike.bst
 Too many commas in name 1 of "Michele Ruta, Floriano Scioscia, Saverio Ieva, Giovanna Capurso, Agnese Pinto, and Eugenio Di Sciascio" for entry Ruta
 while executing---line 1098 of file apalike.bst
-Warning--empty year in Ruta
 Warning--empty journal in Ruta
 Too many commas in name 1 of "Mike Uschold, Martin King, Stuart Moralee, Yaniss Zorgios" for entry Uschold
 while executing---line 1098 of file apalike.bst
@@ -225,7 +220,6 @@ Too many commas in name 1 of "Sukrit Kalra, Seep Goel, Mohan Dhawan, Subodh Shar
 while executing---line 1098 of file apalike.bst
 Warning--empty journal in Kalra
 Warning--empty journal in Tonci
-Warning--empty year in Hector
 Warning--empty journal in Hector
 Warning--empty journal in Rashid
 Warning--empty booktitle in Kemal
@@ -237,45 +231,45 @@ Warning--empty journal in Zdun
 Too many commas in name 1 of "Yan Ye, Dong Yang, Zhibin Jiang, Lixing Tong" for entry Ye
 while executing---line 1098 of file apalike.bst
 Warning--empty journal in Ye
-You've used 38 entries,
+You've used 39 entries,
             1935 wiz_defined-function locations,
-            681 strings with 8843 characters,
-and the built_in function-call counts, 12044 in all, are:
-= -- 1132
-> -- 375
-< -- 55
-+ -- 128
-- -- 112
-* -- 825
-:= -- 2108
-add.period$ -- 101
-call.type$ -- 38
-change.case$ -- 242
-chr.to.int$ -- 38
+            683 strings with 8975 characters,
+and the built_in function-call counts, 12502 in all, are:
+= -- 1178
+> -- 388
+< -- 58
++ -- 132
+- -- 116
+* -- 857
+:= -- 2180
+add.period$ -- 106
+call.type$ -- 39
+change.case$ -- 249
+chr.to.int$ -- 39
 cite$ -- 76
-duplicate$ -- 599
-empty$ -- 871
-format.name$ -- 185
-if$ -- 2391
+duplicate$ -- 624
+empty$ -- 901
+format.name$ -- 192
+if$ -- 2492
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 37
-newline$ -- 179
-num.names$ -- 113
-pop$ -- 304
+missing$ -- 38
+newline$ -- 186
+num.names$ -- 116
+pop$ -- 308
 preamble$ -- 1
-purify$ -- 245
+purify$ -- 252
 quote$ -- 0
-skip$ -- 474
+skip$ -- 500
 stack$ -- 0
-substring$ -- 533
-swap$ -- 84
-text.length$ -- 18
+substring$ -- 553
+swap$ -- 94
+text.length$ -- 20
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 222
-warning$ -- 37
-while$ -- 91
+type$ -- 228
+warning$ -- 36
+while$ -- 95
 width$ -- 0
-write$ -- 429
-(There were 73 error messages)
+write$ -- 447
+(There were 74 error messages)

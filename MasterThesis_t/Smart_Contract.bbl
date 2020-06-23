@@ -115,14 +115,21 @@ Lin, A. M.~W. and Madni, C. (2000).
 Markos, K. (2019).
 \newblock Indexes for blockchain data.
 
+\bibitem[Matthew~English1 and Domingue2, 2016]{Matthew}
+Matthew~English1, S.~A. and Domingue2, J. (2016).
+\newblock Block chain technologies and the semantic web: A framework for
+  symbiotic development.
+\newblock page~15.
+
 \bibitem[Md~Nazmul~Islam, 2018]{Nazmul}
 Md~Nazmul~Islam, Vinay~Patil, S.~K. (2018).
 \newblock On ic traceability via blockchain.
 \newblock page~4.
 
-\bibitem[Michele~Ruta and Sciascio, ]{Ruta}
-Michele~Ruta, Floriano~Scioscia, S. I. G. C. A.~P. and Sciascio, E.~D.
+\bibitem[Michele~Ruta and Sciascio, 2018]{Ruta}
+Michele~Ruta, Floriano~Scioscia, S. I. G. C. A.~P. and Sciascio, E.~D. (2018).
 \newblock A blockchain infrastructure for the semantic web of things.
+\newblock page~12.
 
 \bibitem[Mike~Uschold, 1996]{Uschold}
 Mike~Uschold, Martin~King, S. M. Y.~Z. (1996).
@@ -158,9 +165,10 @@ Tonci~Grubic, I.-S.~F. (2010).
 \newblock Supply chain ontology: Review, analysis and synthesis.
 \newblock page~11.
 
-\bibitem[Ugarte, ]{Hector}
-Ugarte, H.
+\bibitem[Ugarte, 2017]{Hector}
+Ugarte, H. (2017).
 \newblock A more pragmatic web 3.0: Linked blockchain data.
+\newblock 15.
 
 \bibitem[Umar~Rashid, 2018]{Rashid}
 Umar~Rashid, Allan~Third, J.~D. (2018).
