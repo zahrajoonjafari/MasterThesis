@@ -8,5 +8,6 @@ To produce triple using EthOn ontology for transactions:
  - cd scripts
  - node tripleize.js
  - cd ..
+ - cd models
  - arq --data=../data/output/output.ttl   --query=types.rq 
  
