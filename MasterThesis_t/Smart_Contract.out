@@ -52,22 +52,18 @@
 \BOOKMARK [2][-]{subsection.2.3.2}{Making smarter Contract: Putting Semantic in Consensus Protocol}{section.2.3}% 52
 \BOOKMARK [2][-]{subsection.2.3.3}{Indexng of Smart Contract}{section.2.3}% 53
 \BOOKMARK [2][-]{subsection.2.3.4}{EthOn}{section.2.3}% 54
-\BOOKMARK [0][-]{chapter.3}{Use Case: Supply Chain Management}{}% 55
-\BOOKMARK [1][-]{section.3.1}{Supply chain management}{chapter.3}% 56
-\BOOKMARK [1][-]{section.3.2}{How to improve SCM applying blockchain? }{chapter.3}% 57
-\BOOKMARK [2][-]{subsection.3.2.1}{Blockchain operation in supply chain management}{section.3.2}% 58
-\BOOKMARK [2][-]{subsection.3.2.2}{Analysis of supply chain ontology models}{section.3.2}% 59
-\BOOKMARK [1][-]{section.3.3}{How smart contract improve supply chain}{chapter.3}% 60
-\BOOKMARK [1][-]{section.3.4}{How smart contract works?}{chapter.3}% 61
-\BOOKMARK [1][-]{section.3.5}{Addressing supply chain using smart contract: }{chapter.3}% 62
-\BOOKMARK [1][-]{section.3.6}{Concept of supply chain }{chapter.3}% 63
-\BOOKMARK [1][-]{section.3.7}{Challenges encountered in Supply chain}{chapter.3}% 64
-\BOOKMARK [1][-]{section.3.8}{How to improve challenges using smart contract?}{chapter.3}% 65
-\BOOKMARK [2][-]{subsection.3.8.1}{proof of concept development }{section.3.8}% 66
-\BOOKMARK [2][-]{subsection.3.8.2}{Smart contract Validation}{section.3.8}% 67
-\BOOKMARK [1][-]{section.3.9}{Semantic Blockchain development Implementation}{chapter.3}% 68
-\BOOKMARK [2][-]{subsection.3.9.1}{Proof of concept}{section.3.9}% 69
-\BOOKMARK [0][-]{chapter.4}{Conclusion}{}% 70
-\BOOKMARK [0][-]{appendix.A}{Smart Contract code in solidity}{}% 71
-\BOOKMARK [0][-]{appendix.B}{Tripleize application}{}% 72
-\BOOKMARK [0][-]{appendix*.30}{Bibliography}{}% 73
+\BOOKMARK [0][-]{chapter.3}{Implementation: Dapp}{}% 55
+\BOOKMARK [1][-]{section.3.1}{Project Concepts}{chapter.3}% 56
+\BOOKMARK [2][-]{subsection.3.1.1}{Contract and Ontology specification}{section.3.1}% 57
+\BOOKMARK [2][-]{subsection.3.1.2}{Technology Usage}{section.3.1}% 58
+\BOOKMARK [1][-]{section.3.2}{Project Architecture}{chapter.3}% 59
+\BOOKMARK [2][-]{subsection.3.2.1}{Back-end}{section.3.2}% 60
+\BOOKMARK [2][-]{subsection.3.2.2}{Front-end}{section.3.2}% 61
+\BOOKMARK [2][-]{subsection.3.2.3}{Schematic Thema}{section.3.2}% 62
+\BOOKMARK [1][-]{section.3.3}{Implementation}{chapter.3}% 63
+\BOOKMARK [2][-]{subsection.3.3.1}{smart contract logic}{section.3.3}% 64
+\BOOKMARK [2][-]{subsection.3.3.2}{Forntend Workflow}{section.3.3}% 65
+\BOOKMARK [0][-]{chapter.4}{Conclusion}{}% 66
+\BOOKMARK [0][-]{appendix.A}{Smart Contract code in solidity}{}% 67
+\BOOKMARK [0][-]{appendix.B}{Tripleize application}{}% 68
+\BOOKMARK [0][-]{appendix*.27}{Bibliography}{}% 69

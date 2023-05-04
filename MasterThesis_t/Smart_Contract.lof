@@ -19,13 +19,11 @@
 \contentsline {figure}{\numberline {2.14}{\ignorespaces Resourse Discovery}}{36}{figure.caption.19}
 \contentsline {figure}{\numberline {2.15}{\ignorespaces EthOn message concept}}{38}{figure.caption.20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Network supply chain management\cite {Sajter}\relax }}{40}{figure.caption.21}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Supply chdain management with blockchain\cite {Nazmul}\relax }}{41}{figure.caption.22}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Stack holders network for a generic supply chain\relax }}{48}{figure.caption.25}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Using smart contract to track the goods in supply chain management\relax }}{51}{figure.caption.26}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Remix IDE to deploy shipment tracking smart contract\relax }}{53}{figure.caption.27}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Recorded transactions after deploying smart contract\relax }}{53}{figure.caption.28}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Final output of a transaction based on SPQRL query\relax }}{56}{figure.caption.29}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces DApp infrastructure\relax }}{39}{figure.caption.21}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Transaction illustration\relax }}{44}{figure.caption.23}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces DApp Architecture\relax }}{46}{figure.caption.24}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces DApp Architecture\relax }}{48}{figure.caption.25}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Smart contract visualization\relax }}{49}{figure.caption.26}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
