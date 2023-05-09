@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.26)  4 MAY 2023 19:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.8.26)  8 MAY 2023 22:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -616,7 +616,7 @@ LaTeX Info: Redefining \nameref on input line 39.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-<oxlogo.png, id=277, 151.767pt x 301.125pt>
+<oxlogo.png, id=293, 151.767pt x 301.125pt>
 File: oxlogo.png Graphic file (type png)
 <use oxlogo.png>
 Package pdftex.def Info: oxlogo.png  used on input line 51.
@@ -733,7 +733,7 @@ been already used, duplicate ignored
                    \relax 
 l.21 
       [4]
-<images/chap01_BlockChain.png, id=464, 1533.73pt x 574.145pt>
+<images/chap01_BlockChain.png, id=484, 1533.73pt x 574.145pt>
 File: images/chap01_BlockChain.png Graphic file (type png)
 <use images/chap01_BlockChain.png>
 Package pdftex.def Info: images/chap01_BlockChain.png  used on input line 27.
@@ -763,7 +763,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
  []
 
-<images/chap01_P2P.png, id=480, 977.6525pt x 593.21625pt>
+<images/chap01_P2P.png, id=501, 977.6525pt x 593.21625pt>
 File: images/chap01_P2P.png Graphic file (type png)
 <use images/chap01_P2P.png>
 Package pdftex.def Info: images/chap01_P2P.png  used on input line 66.
@@ -774,7 +774,7 @@ Overfull \hbox (159.9828pt too wide) in paragraph at lines 66--67
  []
 
 [7 <./images/chap01_P2P.png>]
-<images/chap01_Markler_tree.png, id=492, 960.58875pt x 608.2725pt>
+<images/chap01_Markler_tree.png, id=513, 960.58875pt x 608.2725pt>
 File: images/chap01_Markler_tree.png Graphic file (type png)
 <use images/chap01_Markler_tree.png>
 Package pdftex.def Info: images/chap01_Markler_tree.png  used on input line 86.
@@ -871,7 +871,7 @@ LaTeX Font Warning: Font shape `OT1/lmr/b/it' in size <10.95> not available
 
 
 ]
-<images/chap02_diagram_ontology.png, id=579, 1059.96pt x 951.555pt>
+<images/chap02_diagram_ontology.png, id=599, 1059.96pt x 951.555pt>
 File: images/chap02_diagram_ontology.png Graphic file (type png)
 <use images/chap02_diagram_ontology.png>
 Package pdftex.def Info: images/chap02_diagram_ontology.png  used on input line
@@ -887,7 +887,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--42
 
  []
 
-<images/chap02_LinkData.png, id=583, 1150.2975pt x 1098.1025pt>
+<images/chap02_LinkData.png, id=603, 1150.2975pt x 1098.1025pt>
 File: images/chap02_LinkData.png Graphic file (type png)
 <use images/chap02_LinkData.png>
 Package pdftex.def Info: images/chap02_LinkData.png  used on input line 48.
@@ -907,7 +907,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--76
 
  []
 
-<images/chap2_EthOnContract.png, id=608, 1793.70125pt x 1358.07375pt>
+<images/chap2_EthOnContract.png, id=628, 1793.70125pt x 1358.07375pt>
 File: images/chap2_EthOnContract.png Graphic file (type png)
 <use images/chap2_EthOnContract.png>
 Package pdftex.def Info: images/chap2_EthOnContract.png  used on input line 84.
@@ -918,7 +918,7 @@ Overfull \hbox (167.30286pt too wide) in paragraph at lines 84--85
  [][] 
  []
 
-<images/chap02_EthOn_Properties.png, id=611, 1102.1175pt x 1048.91875pt>
+<images/chap02_EthOn_Properties.png, id=631, 1102.1175pt x 1048.91875pt>
 File: images/chap02_EthOn_Properties.png Graphic file (type png)
 <use images/chap02_EthOn_Properties.png>
 Package pdftex.def Info: images/chap02_EthOn_Properties.png  used on input line
@@ -930,7 +930,7 @@ Overfull \hbox (149.52577pt too wide) in paragraph at lines 94--95
  []
 
 [23 <./images/chap2_EthOnContract.png>]
-<images/chap02_BLONDiE.png, id=622, 1128.215pt x 711.65875pt>
+<images/chap02_BLONDiE.png, id=642, 1128.215pt x 711.65875pt>
 File: images/chap02_BLONDiE.png Graphic file (type png)
 <use images/chap02_BLONDiE.png>
 Package pdftex.def Info: images/chap02_BLONDiE.png  used on input line 111.
@@ -946,7 +946,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--132
  []
 
 [25 <./images/chap02_BLONDiE.png>]
-<images/chap02_Eth_str.png, id=640, 2165.08875pt x 998.73125pt>
+<images/chap02_Eth_str.png, id=660, 2165.08875pt x 998.73125pt>
 File: images/chap02_Eth_str.png Graphic file (type png)
 <use images/chap02_Eth_str.png>
 Package pdftex.def Info: images/chap02_Eth_str.png  used on input line 138.
@@ -956,7 +956,7 @@ Overfull \hbox (218.53902pt too wide) in paragraph at lines 138--139
  [][] 
  []
 
-<images/chap02_Eth_Table.png, id=641, 1614.03pt x 655.44875pt>
+<images/chap02_Eth_Table.png, id=661, 1614.03pt x 655.44875pt>
 File: images/chap02_Eth_Table.png Graphic file (type png)
 <use images/chap02_Eth_Table.png>
 Package pdftex.def Info: images/chap02_Eth_Table.png  used on input line 150.
@@ -967,7 +967,7 @@ Overfull \hbox (218.53902pt too wide) in paragraph at lines 150--151
  []
 
 [26 <./images/chap02_Eth_str.png>] [27 <./images/chap02_Eth_Table.png>]
-<images/chap02_SmartContract_ABI.png, id=657, 955.57pt x 515.9275pt>
+<images/chap02_SmartContract_ABI.png, id=677, 955.57pt x 515.9275pt>
 File: images/chap02_SmartContract_ABI.png Graphic file (type png)
 <use images/chap02_SmartContract_ABI.png>
 Package pdftex.def Info: images/chap02_SmartContract_ABI.png  used on input lin
@@ -979,7 +979,7 @@ Overfull \hbox (218.53902pt too wide) in paragraph at lines 183--184
  []
 
 [28]
-<images/chap02_MSM.png, id=664, 1521.685pt x 906.38625pt>
+<images/chap02_MSM.png, id=684, 1521.685pt x 906.38625pt>
 File: images/chap02_MSM.png Graphic file (type png)
 <use images/chap02_MSM.png>
 Package pdftex.def Info: images/chap02_MSM.png  used on input line 204.
@@ -991,7 +991,7 @@ Overfull \hbox (218.53902pt too wide) in paragraph at lines 204--205
 
 [29 <./images/chap02_SmartContract_ABI.png>] [30 <./images/chap02_MSM.png>]
 [31]
-<images/chap02_PeerBlockchain.png, id=685, 1499.6025pt x 464.73625pt>
+<images/chap02_PeerBlockchain.png, id=705, 1499.6025pt x 464.73625pt>
 File: images/chap02_PeerBlockchain.png Graphic file (type png)
 <use images/chap02_PeerBlockchain.png>
 Package pdftex.def Info: images/chap02_PeerBlockchain.png  used on input line 2
@@ -1003,7 +1003,7 @@ Overfull \hbox (218.53902pt too wide) in paragraph at lines 287--288
  []
 
 [32 <./images/chap02_PeerBlockchain.png>]
-<images/chap02_Domain_EthOn.png, id=699, 812.03375pt x 498.86375pt>
+<images/chap02_Domain_EthOn.png, id=719, 812.03375pt x 498.86375pt>
 File: images/chap02_Domain_EthOn.png Graphic file (type png)
 <use images/chap02_Domain_EthOn.png>
 Package pdftex.def Info: images/chap02_Domain_EthOn.png  used on input line 326
@@ -1019,7 +1019,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 334--336
 
  []
 
-<images/chap02_SmartContract.png, id=702, 765.86125pt x 465.74pt>
+<images/chap02_SmartContract.png, id=722, 765.86125pt x 465.74pt>
 File: images/chap02_SmartContract.png Graphic file (type png)
 <use images/chap02_SmartContract.png>
 Package pdftex.def Info: images/chap02_SmartContract.png  used on input line 34
@@ -1035,7 +1035,7 @@ Overfull \hbox (126.5237pt too wide) in paragraph at lines 343--344
 LaTeX Warning: Text page 34 contains only floats.
 
 [34 <./images/chap02_Domain_EthOn.png> <./images/chap02_SmartContract.png>]
-<images/chap02_OWL.png, id=716, 894.34125pt x 318.18875pt>
+<images/chap02_OWL.png, id=737, 894.34125pt x 318.18875pt>
 File: images/chap02_OWL.png Graphic file (type png)
 <use images/chap02_OWL.png>
 Package pdftex.def Info: images/chap02_OWL.png  used on input line 356.
@@ -1057,7 +1057,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 363--374
  []
 
 [35 <./images/chap02_OWL.png>]
-<images/chap01_SemanticBlockChain.png, id=725, 1327.96124pt x 645.41125pt>
+<images/chap01_SemanticBlockChain.png, id=746, 1327.96124pt x 645.41125pt>
 File: images/chap01_SemanticBlockChain.png Graphic file (type png)
 <use images/chap01_SemanticBlockChain.png>
 Package pdftex.def Info: images/chap01_SemanticBlockChain.png  used on input li
@@ -1069,7 +1069,7 @@ Overfull \hbox (218.53902pt too wide) in paragraph at lines 386--387
  []
 
 [36 <./images/chap01_SemanticBlockChain.png>]
-<images/chap02_EthOn.jpg, id=735, 937.5025pt x 827.09pt>
+<images/chap02_EthOn.jpg, id=755, 937.5025pt x 827.09pt>
 File: images/chap02_EthOn.jpg Graphic file (type jpg)
 <use images/chap02_EthOn.jpg>
 Package pdftex.def Info: images/chap02_EthOn.jpg  used on input line 414.
@@ -1084,18 +1084,13 @@ Overfull \hbox (149.52577pt too wide) in paragraph at lines 414--415
 
  (./chapter3.tex
 Chapter 3.
-<images/chap03_dapp.png, id=746, 808.01875pt x 572.1375pt>
-File: images/chap03_dapp.png Graphic file (type png)
-<use images/chap03_dapp.png>
-Package pdftex.def Info: images/chap03_dapp.png  used on input line 8.
-(pdftex.def)             Requested size: 454.85194pt x 322.07098pt.
 
-Overfull \hbox (141.16028pt too wide) in paragraph at lines 8--9
-[][] 
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--21
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
 
  []
 
@@ -1103,209 +1098,222 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--21
 
 
 
- <./images/chap03_dapp.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+]
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-
- []
+Package natbib Warning: Citation `Anna' on page 40 undefined on input line 16.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+Package natbib Warning: Citation `Anna' on page 40 undefined on input line 16.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
 
  []
 
 [40]
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+<images/chap03_dapp.png, id=775, 808.01875pt x 572.1375pt>
+File: images/chap03_dapp.png Graphic file (type png)
+<use images/chap03_dapp.png>
+Package pdftex.def Info: images/chap03_dapp.png  used on input line 34.
+(pdftex.def)             Requested size: 454.85194pt x 322.07098pt.
 
+Overfull \hbox (141.16028pt too wide) in paragraph at lines 34--35
+[][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--44
+Underfull \hbox (badness 10000) in paragraph at lines 43--47
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--49
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-
- []
-
-
+[41 <./images/chap03_dapp.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
-[41]
-Underfull \hbox (badness 10000) in paragraph at lines 53--57
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--59
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
+Overfull \hbox (4.79303pt too wide) in paragraph at lines 60--61
+[]\OT1/lmr/m/it/10.95 Transaction Triple tem-plate \OT1/lmr/m/n/10.95 de-fines 
+for the re-la-tion-ship be-tween con-cepts(block
+ []
+
+[42] [43]
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
+
+ []
+
+LaTeX Font Info:    Try loading font information for OT1+qcr on input line 90.
+(/usr/share/texmf/tex/latex/tex-gyre/ot1qcr.fd
+File: ot1qcr.fd 2009/09/25 v1.2 font definition file for OT1/qcr
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 95.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 95.
+
+Overfull \hbox (5.26625pt too wide) in paragraph at lines 90--96
+[]\OT1/qcr/m/n/10.95 Truffle \OT1/lmr/m/n/10.95 is the smart con-tract de-vel-o
+p-ment tools and test-ing net-work for blockchain
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--64
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
-<images/chap03_service.png, id=761, 791.95876pt x 73.27374pt>
-File: images/chap03_service.png Graphic file (type png)
-<use images/chap03_service.png>
-Package pdftex.def Info: images/chap03_service.png  used on input line 73.
-(pdftex.def)             Requested size: 313.69167pt x 29.02385pt.
-<images/chap03_rdf.png, id=762, 698.61pt x 75.28125pt>
-File: images/chap03_rdf.png Graphic file (type png)
-<use images/chap03_rdf.png>
-Package pdftex.def Info: images/chap03_rdf.png  used on input line 77.
-(pdftex.def)             Requested size: 313.69167pt x 33.80272pt.
-[42]
-Overfull \hbox (3.25029pt too wide) in paragraph at lines 89--91
-[]\OT1/lmr/m/it/10.95 EthOn On-tol-ogy \OT1/lmr/m/n/10.95 is se-man-ti-cal view
- of ethereum blockchain. It en-com-passes diffrenet
- []
-
-<images/chap03_knowledge_graph.png, id=767, 547.04375pt x 452.69125pt>
-File: images/chap03_knowledge_graph.png Graphic file (type png)
-<use images/chap03_knowledge_graph.png>
-Package pdftex.def Info: images/chap03_knowledge_graph.png  used on input line 
-102.
-(pdftex.def)             Requested size: 454.85194pt x 376.40367pt.
-
-Overfull \hbox (141.16028pt too wide) in paragraph at lines 102--103
-[][] 
- []
-
-[43 <./images/chap03_service.png> <./images/chap03_rdf.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 115--121
+[44]
+Underfull \hbox (badness 10000) in paragraph at lines 102--105
 
  []
 
-[44 <./images/chap03_knowledge_graph.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 122--131
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
 
  []
 
 [45]
-<images/chap03_user_roadmap.png, id=785, 667.49374pt x 592.2125pt>
+Overfull \hbox (3.25029pt too wide) in paragraph at lines 125--127
+[]\OT1/lmr/m/it/10.95 EthOn On-tol-ogy \OT1/lmr/m/n/10.95 is se-man-ti-cal view
+ of ethereum blockchain. It en-com-passes diffrenet
+ []
+
+<images/chap03_knowledge_graph.png, id=819, 547.04375pt x 452.69125pt>
+File: images/chap03_knowledge_graph.png Graphic file (type png)
+<use images/chap03_knowledge_graph.png>
+Package pdftex.def Info: images/chap03_knowledge_graph.png  used on input line 
+138.
+(pdftex.def)             Requested size: 454.85194pt x 376.40367pt.
+
+Overfull \hbox (141.16028pt too wide) in paragraph at lines 138--139
+[][] 
+ []
+
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 151--157
+
+ []
+
+[47 <./images/chap03_knowledge_graph.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 158--167
+
+ []
+
+[48]
+<images/chap03_user_roadmap.png, id=834, 667.49374pt x 592.2125pt>
 File: images/chap03_user_roadmap.png Graphic file (type png)
 <use images/chap03_user_roadmap.png>
-Package pdftex.def Info: images/chap03_user_roadmap.png  used on input line 148
+Package pdftex.def Info: images/chap03_user_roadmap.png  used on input line 184
 .
 (pdftex.def)             Requested size: 454.85194pt x 403.56667pt.
 
-Overfull \hbox (141.16028pt too wide) in paragraph at lines 148--149
+Overfull \hbox (141.16028pt too wide) in paragraph at lines 184--185
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--164
+Underfull \hbox (badness 10000) in paragraph at lines 191--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--164
+Underfull \hbox (badness 10000) in paragraph at lines 191--200
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--164
+Underfull \hbox (badness 10000) in paragraph at lines 191--200
 
  []
 
-[46 <./images/chap03_user_roadmap.png>]
-<images/chap03_eth_dalicc_comm.png, id=791, 563.10374pt x 334.24875pt>
+[49] [50 <./images/chap03_user_roadmap.png>]
+<images/chap03_eth_dalicc_comm.png, id=844, 563.10374pt x 334.24875pt>
 File: images/chap03_eth_dalicc_comm.png Graphic file (type png)
 <use images/chap03_eth_dalicc_comm.png>
 Package pdftex.def Info: images/chap03_eth_dalicc_comm.png  used on input line 
-182.
+218.
 (pdftex.def)             Requested size: 470.53749pt x 279.30327pt.
 
-Overfull \hbox (156.84583pt too wide) in paragraph at lines 182--183
+Overfull \hbox (156.84583pt too wide) in paragraph at lines 218--219
 [][] 
  []
 
-[47]
-Underfull \hbox (badness 10000) in paragraph at lines 196--200
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--236
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--204
+[51 <./images/chap03_eth_dalicc_comm.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 237--240
 
  []
 
-[48 <./images/chap03_eth_dalicc_comm.png>]
-<images/chap03_smartContract_visual.png, id=801, 1660.2025pt x 1121.18875pt>
+<images/chap03_smartContract_visual.png, id=852, 1660.2025pt x 1121.18875pt>
 File: images/chap03_smartContract_visual.png Graphic file (type png)
 <use images/chap03_smartContract_visual.png>
 Package pdftex.def Info: images/chap03_smartContract_visual.png  used on input 
-line 217.
+line 253.
 (pdftex.def)             Requested size: 454.85194pt x 307.17307pt.
 
-Overfull \hbox (141.16028pt too wide) in paragraph at lines 217--218
+Overfull \hbox (141.16028pt too wide) in paragraph at lines 253--254
 [][] 
  []
 
-[49 <./images/chap03_smartContract_visual.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 228--235
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--271
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--239
+Underfull \hbox (badness 10000) in paragraph at lines 272--275
+
+ []
+
+[52] [53 <./images/chap03_smartContract_visual.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--245
+Underfull \hbox (badness 10000) in paragraph at lines 284--286
 
  []
 
-[50]
-Underfull \hbox (badness 10000) in paragraph at lines 248--250
-
- []
-
-LaTeX Font Info:    Try loading font information for OT1+qcr on input line 259.
-
-(/usr/share/texmf/tex/latex/tex-gyre/ot1qcr.fd
-File: ot1qcr.fd 2009/09/25 v1.2 font definition file for OT1/qcr
-) [51]) [52]
+[54]) [55]
 \openout2 = `conclusions.aux'.
 
  (./conclusions.tex
 Chapter 4.
-) [53
+) [56
 
 
 
@@ -1337,7 +1345,7 @@ Overfull \hbox (61.74933pt too wide) in paragraph at lines 20--22
 [][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[54
+[57
 
 
 
@@ -1346,14 +1354,12 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 51.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 51.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 51.
 
 Overfull \hbox (1.74872pt too wide) in paragraph at lines 58--60
 [][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[55]
+[58]
 Overfull \hbox (127.75pt too wide) in paragraph at lines 99--100
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -1368,7 +1374,7 @@ Overfull \hbox (31.74902pt too wide) in paragraph at lines 128--129
 [][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-) [56]
+) [59]
 \openout2 = `appendix2.aux'.
 
  (./appendix2.tex
@@ -1388,7 +1394,7 @@ Overfull \hbox (151.75024pt too wide) in paragraph at lines 24--25
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[57
+[60
 
 
 
@@ -1397,42 +1403,35 @@ Overfull \hbox (85.74957pt too wide) in paragraph at lines 68--69
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-) [58] (./Smart_Contract.bbl [59
+) [61] (./Smart_Contract.bbl [62
 
 
-] [60])
+] [63])
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 80.
-[61]
+[64]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 80.
  (./Smart_Contract.aux (./dedication.aux) (./acknowlegements.aux)
 (./abstract.aux) (./introduction.aux) (./chapter1.aux) (./chapter2.aux)
 (./chapter3.aux) (./conclusions.aux) (./appendix1.aux) (./appendix2.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 80.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 80.
-
-
-Package rerunfilecheck Warning: File `Smart_Contract.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Smart_Contract.out':
-(rerunfilecheck)             Before: 2165B91332E3B5F69B0D681815E3A92C;4781
-(rerunfilecheck)             After:  4383E95E208E1895BD6D32756EAE2B59;4852.
+Package rerunfilecheck Info: File `Smart_Contract.out' has not changed.
+(rerunfilecheck)             Checksum: 76BA301393CDEE261084CA42C1E96BA7;5059.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 80.
  ) 
 Here is how much of TeX's memory you used:
- 11989 strings out of 492982
- 183438 string characters out of 6134896
+ 12008 strings out of 492982
+ 183509 string characters out of 6134896
  420403 words of memory out of 5000000
- 14861 multiletter control sequences out of 15000+600000
- 73728 words of font info for 61 fonts, out of 8000000 for 9000
+ 14864 multiletter control sequences out of 15000+600000
+ 77742 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,8n,47p,1118b,1627s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-rmm.enc}{/usr/share/texmf/fonts/
-enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
+ips/tex-gyre/q-rmm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr
 /share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips
 /lm/lm-mathit.enc}</usr/share/texmf/fonts/type1/public/lm/lmb10.pfb></usr/share
 /texmf/fonts/type1/public/lm/lmbo10.pfb></usr/share/texmf/fonts/type1/public/lm
@@ -1441,13 +1440,13 @@ f/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/
 type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></us
 r/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/te
-x-gyre/qcrr.pfb>
-Output written on Smart_Contract.pdf (71 pages, 4786944 bytes).
+ic/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/l
+msy10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qcrr.pfb>
+Output written on Smart_Contract.pdf (74 pages, 4821239 bytes).
 PDF statistics:
- 1215 PDF objects out of 1440 (max. 8388607)
- 1056 compressed objects within 11 object streams
- 397 named destinations out of 1000 (max. 500000)
- 675 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1270 PDF objects out of 1440 (max. 8388607)
+ 1110 compressed objects within 12 object streams
+ 412 named destinations out of 1000 (max. 500000)
+ 697 words of extra memory for PDF output out of 10000 (max. 10000000)
 

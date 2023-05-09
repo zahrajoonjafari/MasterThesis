@@ -1,4 +1,30 @@
 \chapter{Implementation: Dapp}
+\section{DALICC}
+According to [], DALICC stands for Data Licenses Clearance Center. It is software framework that helps people to legally secure data from third party and help to detect licensing conflicts and reducing the costs of rights clearance by enabling automated clearance right in creation of derivative works. 
+\subsection{DALICC Requirements}
+The following requirements would be addressed by DALICC framework:\\
+\begin{itemize}
+	\item \textit{Tackling license heterogeneity:} \\
+	It is possible to combine the various contents which having the same license with different names. But that would be much difficult to license the resultant of the combined contents. To solve this issue, DALICC provides set of machine-readable representation of licenses that allow to compare licenses to each other to identify the equivalent licenses. It guides the user to possible conflicts of various combined licenses.
+	\item \textit{Tackling REL heterogeneity:} \\
+	Combing licenses are simple, if they are express through the same RED. But, it is difficult to compare licenses have been represented by different RELs.\\
+	DALICC resolve this problem, by representing RELs based on semantic web, map the terms to each other. It will represent exiting RELs based on  W3C-approved standards, thus allow mapping between various RELs to be created.
+	\item \textit{Compatibility check, conflict detection and neutrality of the rules:} \\
+	It is difficult to be sure, if the meaning of the different terms in semantic are aligned. This problems result from indicating the classes, instances and properties which can not be handled just by mapping.\\
+	This is where DALICC comes to play and helps user with a workflow that define the usage context, then gathering additional information to detect conflicts and ambiguous concepts. Based on this information, DALICC make reasoning over the set of licenses and infers the instruction to user how to process with license processing.\\
+	\item \textit{Legal validity of representations and machine recommendations:} \\
+	According to Anna Fensel\cite{Anna}, The semantic complexity of licensing issues means that the semantics of RELs must be clearly aligned within the specific application scenario. This includes a correct interpretation of the various national legislations according to the country of origin of a jurisdiction (i.e. German Urheberrecht vs. US copyright), the resolution of problems that are derived from multilinguality and the consideration of existing case law in the resolution of licensing conflicts.\cite{Anna}\\
+	To solve this problem, DALICC will check the legal validity of machine-readable license and compatibility of reasoning engine output with law. DALICC output will be testes against law and checked the semantic precision of derived from different language and adjusted them.
+	
+\end{itemize}
+\subsection{DALICC Software Architecture}
+To address the above challenges DALICC framework consist of four components:\\
+\begin{itemize}
+	\item \textbf{License composer} is tools that allowed the license to be created from set of questions which are mapped to ODRL, ccREL and the DALICC vocabularies and concepts.
+	\item \textbf{License library} is a repository that represents licenses in machine-readable format , the former as ORDL policies and the letters as plain text.
+	\item \textbf{License annotator} allows to attache license to dataset, either by choosing available licenses in license library or create new license using license composer.
+	\item \textbf{License negotiator} as main component in DALICC framework that checks the license compatibility and support license conflicts by detecting equivalence license having various names.
+\end{itemize}
 \begin{center}
 	
 	\begin{figure}[htb!]
@@ -14,77 +40,87 @@
 \end{center}
 \section{Project Concepts}
 
-In this section, we focused on requirements that we need to  our application.
-And some terms that we mostly head of them in smart contract thema.\\
+In this section, we focused on requirements that we need to address them in our application.
+And some terms that we mostly heard of them in smart contract section.\\
 \textbf{Triple} use as template in this project. it contains different \\ concepts likr class and properties associated with project transaction graph.\\
 \textbf{SPARQL} is language query that runs over tripled produced by ...\\
 
 \textbf{Http Request} 
 \subsection{Contract and Ontology specification}
-In this section, we focused on some terms that are mostly used in this contract and ontology of our application. And we needed them as primary requirement to build up this dApp.
+Here, it is explained some terms related to smart contract and ontology of our application. And we needed them as primary requirement to build up this dApp.
 \begin{itemize}
 	\item \textbf{Definition 1 (Owner)} is the address of deployed contract or transaction to the blockchain. that is the first msg sender to interact with contract. In this caseed is able to change her/his license of the file.\\
 	\item \textbf{Definition 2 (Non-owner)} is the another user that make not action. In this case, is able to retrieve license information related to specific file.\\
 	\item \textbf{Definition 3 (Licensor)}  is the address currently interact with smart contract. In this case is able to license his/her file.\\ 
-	\item \textbf{Definition 4 (Web3 to Ontology mappings)}. As we do not have authority to change stored data on ethereum blockchain, one idea is that to create template to have semantic view of blockchain.
-	In order to reach this purpose, we need mapping between produced data from our transaction in the blockchain and transaction concepts defined as ontology. Then make query on produced data from this mapping. This process consist 3 following requirements:
+	\item \textbf{Definition 4 (Web3 to Ontology mappings)}do not have authority to change stored data on ethereum blockchain, one idea is that to create template to have semantic view of blockchain.
+	In order to reach this purpose, we need mapping between stored transaction data in the blockchain and transaction concepts defined as ontology, then make query on produced data from this mapping. This process consist three following requirements:
 	
 	\begin{itemize}
-		\item \textit{Transaction Schema} are actually some properties returned from web3.eth functions that related ontology can be found-able in ethOn ontology.
-		\item \textit{Transaction Triple template} known as 'subject predict object'. Subject is the wen3.eth properties, predict known as ethOn ontology data properties and Object is the web3.eth properties that would be place in. 
-		\item \textit{Triplize} is the function that generate data in RDF format by create mapping between two mentioned parameters as input. 
+		\item \textit{Transaction Schema} are actually some attributes resulted from web3.eth functions that ehtOn data properties would be mapped to.
+		\item \textit{Transaction Triple template} defines for the relationship between concepts(block or transaction) and properties. It is known as 'Subject predicts Object' that Subject is the web3.eth properties, predict known as ethOn ontology predictor(data properties) and Object (web3.eth properties) is a place that would be replaced by the transaction schema on the mapping. 
+		\item \textit{Triplize} is the function that generates data in RDF format by create mapping between two above parameters as input. 
 	\end{itemize} 
-    \item \textbf{Definition 5 (Prefix)} name is the label or local part separated with ':' and is the abbreviation of terms that referenced to resources explicitly. \\  
-	\item \textbf{definition 6 (SPARQL Query)}. It is the last part of this process, making query on produced data in last phase to create TODO  
+     \item \textbf{Definition 5 (Prefix)} name is the label or local part separated with ':' and is the abbreviation of terms that referenced to resources explicitly. Prefixes are declared on the top of SPARQL query and our triple template, so that the statements can reference to.  
 \end{itemize}
 \subsection{Technology Usage}
+\textbf{DApp} \\
+It is type of open source smart contract application that runs on decentralized peer-to-peer network rather then centralized server.
+It allows users to transparently execute transaction on distributed network. \\
+\textbf{Charactaristic:}
+\begin{itemize}
+	\item \textit{Open Source}: all the required are decided on consuse all available users on network.
+	\item \textit{Decentrlized Storage: } data is stored on decentrlized blocks.
+	\item \textit{Validation: } AS application runs on blockchain. They offer validation of data using cryptographic token which is needed of network. 
+	
+\end{itemize}
+DApp is similar to centralized app, as they use frontend and backend. But backend's app is supported by centralized server or database. And Backensd's DApp runs on decentralized p2p network and is supported by smart contract which stores on ethereum blockchain.
+  
+\textbf{Ethereum} \\
+it is explained in previous section.\\
+\textbf{Solidity} \\
+it is explained in previous section.\\
+\textbf{SHA3-256} \\he process of SHA-3 standarazation by NIST was completed in Auguts 2015. SHA3 includes four functions with the different length of 224, 256, 384, 512 bits.
+In all thesis cases, the capacity is twices the output length. \\
+The function blow indicates tha implentation of four functions in SHA-3 statndards.\\
+SHA3[n]\textit{[massage]} which(\textit{n}) is the output length of 224, 256, 384 or 521 bits.\\
+\textit{message} is the additional input parameter in text type.
 
 \textbf{Java Script Tools} \\
 \begin{itemize}
- \item \textit{Truffle} is the smart contract development tools and testing network for blockchain application. It supprts developer who are looking to build etherem, etc. \\
-Truffle is created to build the end end to end dApp development platform: \\
-\hspace{3cm}\text{- Build up smart contract, compile and deploying that.} \\
-\hspace{3cm}\text{- Testing contract on test net for repid development.} \\
-\hspace{3cm}\text{- Handle with npm and nodejs} \\
-\item \textit{React.js} is library used to build user interfaces.\\
-\item \textit{crypto.js} \\
-\item \textit{Web3.js} is designed as library to interact with remote and local node using http, ipc and etc.\\
-\item \textit{axios} provides the http requests from the browser and handle request/response data. \\
-\item \textit{HDwallet provider} is package tp send transaction in truffle using private key retrieved from metamask account and Infura api key provided access to ethereum network. \\
-truffle use infura to migrate an existing dApp to an ethereum network supported by infura.\\
+  \item \texttt{Truffle} is the smart contract development tools and testing network for blockchain application and supports developer who are looking to build etherem dApp, etc. \\
+ Truffle offers some different features: \\
+ \hspace{1cm} \textit{- Smart contract Managing}: truffle helps to Manage artifacts of smart contract used in dApp and supports library linking, deploying and some other ethereum dApps. \\
+ \hspace{3cm} \textit{- Contract testing system}: Truffle helps developer to construct smart contract testing system for all own contracts. \\
+ \hspace{3cm} \textit{- Network management}: it helped developer by managing its own artifacts. \\
+ \hspace{3cm} \textit{- Truffle console}: allows the developer to access all truffle commands and built contracts \footnote{https://moralis.io/truffle-explained-what-is-the-truffle-suite}.
+\item \texttt{React.js} is open-source JavaScript framework and used as frontend. In react, developer build web application by using reusable components that are individual which when assembled together form a application's whole user interface.\\
+React has advantage of providing feature that combine spedd of JavaScript with more efficient method of managing DOM to render web pages faster and create more responsive web application \footnote{https://blog.hubspot.com/website/react-js}.\\
+\item \texttt{crypto.js} \\
+is the JavaScript library that preforms data encryption and decryption. It is collection of standards algorithms including SHA3-256 \footnote{{https://github.com/jakubzapletal/crypto-js}}.
+\item \texttt{Web3.js} helps developer to connect to ethereum blockchain. \textit{web3.js} is collection of libraries that allows developer to preform some actions like sending ether, checking data from smart contract and creating smart contract \footnote{https://www.datastax.com/guides/what-is-web3.js}.\\
+\item \texttt{axios} provides the http requests from the browser and handle request/response data \footnote{https://axios-http.com/docs/intro}. \\
+\item \texttt{HDwallet provider} is package to helps developer to connect to network. It is easy to configure connection network to ethereum blockchain through \textit{infura}. This provider is used by truffle when we deploy the contract however metamask providers are used when we want to interact with the contract in the browser.\\
 In our case, we migrate smart contract to Sepolia network.
-HDwallet provider provide custom rpc url: 'http://1287.0.0.1:7545'. This will spawn a development blockchain locally on port 7545. \\
-\item \textit{Express.js} is node.js framework for authority dApp. It provides http methods(GEt, POST) to call function for particular URL route. \\ 
-When we run dApp, we have http server locating on port 3000. \\
-\item \textit{FS} provides some functionality to interact with file system, mostly used function like: \textit{readFileSync}, \textit{writeFileSync} and \textit{appendFileSync}. \\
+HDwallet provider provide custom rpc url: 'http://127.0.0.1:7545'. This will spawn a development blockchain locally on port 7545 \footnote{https://github.com/trufflesuite/truffle-hdwallet-provider}. \\
+\item \texttt{Express.js} It is node.js framework for authority dApp. It provides HTTP methods (GET, POST) to call function for particular URL route \footnote{https://www.simplilearn.com/tutorials/nodejs-tutorial/what-is-express-js}. \\ 
+When we run dApp, we have HTTP server locating on port 3000. \\
+\item \texttt{FS} provides some functionality to interact with file system, mostly used function like: \textit{readFileSync}, \textit{writeFileSync} and \textit{appendFileSync} \footnote{https://blog.risingstack.com/fs-module-in-node-js/}. \\
 \end{itemize}
 
 \textbf{Semantic Web Tools}\\
 \begin{itemize}
-
-\item \textit{SPARQL}\\
-\item \textit{Arq} is utility of Appache Jena that run queries on remote sparql endpoint or RDF files that would be lo located on local computer or web.
-\begin{center}
+	\item \textit{EthOn Ontology} is semantic view of ethereum blockchain. It encompasses different classes and relations to cover different concept of ethereum like blocks, transaction, message to formalize RDF triple. We used class and properties related to transaction concept as template to modeling our transaction to DALICC \footnote{https://axios-http.com/docs/intro}.
+	\item \textit{SPARQL}\\
+	It is defined in the previous section.
+	\item \textit{Sparql} is utility of Appache Jena that run queries on remote sparql endpoint or RDF files that would be lo located on local computer or web. We used the command as follow:\\
+	\textit{sparql --data rdfFile --query sparqlFile}
 	
-	\begin{figure}[htb!]
-	
-		\begin{minipage}{0.75\linewidth}
-			\hspace{3cm}\text{Query a remote endpoint} \\
-			\includegraphics[width=1\textwidth]{images/chap03_service.png}
-			
-			
-			\hspace{3cm}\text{Query an RDF File} \\
-			\includegraphics[width=1\textwidth]{images/chap03_rdf.png}
-		\end{minipage}
-			
-	\end{figure}
-	
- \end{center}
- 
 \end{itemize}
 \textbf{Ethereum Tools}
+
 \begin{itemize}
-\item \textit{Metamask Wallet} metamask is wallet that connect to ethereum blockchain. Metamask provides the private key for related address and store user information in the database. This address would be used later to authenticate user.
+\item \textit{Infura}, According to internet definition,a web3 backend and infrastructure-as-a-Service (IaaS) provider that offers range of tools to help developer to build dApp to connect to ethereuem blockchain.
+\item \textit{Metamask Wallet} metamask is wallet used to interact with ethereum blockchain. It allows to user to connect network through browser extension or mobile app. Metamaskwallet, including all accounts, each account has own privat key \footnote{https://originstamp.com/blog/metamask-what-is-it-and-how-does-it-work/}.
 \item \textit{Faucet(ETH faucet)} is the platform that give some test tokens to user to test smart contract or sending transaction. For out purpose, Sepolia faucet is used to sending transaction. 
 \item \textit{EthOn Ontology} is semantical view of ethereum blockchain. It encompasses diffrenet classes and relations to cover other aspect of ethereum like blocks, transaction, message to formalize RDF triple.  
 we used class and properties related to transaction concept as template to modeling our transaction to DALICC. 
@@ -109,7 +145,7 @@ the idea being to use graph-based data model to clarify survived transaction in 
 
 \end{itemize}
 \section{Project Architecture}
-\subsection{Back-end} The backend of this project rely on 2 main components: First one is the ethereum blockachain using smart contract to create platform. \\
+\subsection{Backend} The backend of this project rely on 2 main components: First one is the ethereum blockachain using smart contract to create platform. \\
 Second one is DALICC license library is used so that user can license here/his data. In the next part, we will more focused on authenticated user as main challenge in decentralized app and data licensing system by user. 
 
 \textbf{Authenticated user} \\

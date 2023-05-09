@@ -53,17 +53,20 @@
 \contentsline {subsection}{\numberline {2.3.3}Indexng of Smart Contract}{37}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}EthOn}{37}{subsection.2.3.4}
 \contentsline {chapter}{\numberline {3}Implementation: Dapp}{39}{chapter.3}
-\contentsline {section}{\numberline {3.1}Project Concepts}{40}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Contract and Ontology specification}{40}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Technology Usage}{41}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Project Architecture}{43}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Back-end}{43}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Front-end}{45}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Schematic Thema}{47}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Implementation}{48}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}smart contract logic}{48}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Forntend Workflow}{51}{subsection.3.3.2}
-\contentsline {chapter}{\numberline {4}Conclusion}{53}{chapter.4}
-\contentsline {chapter}{\numberline {A}Smart Contract code in solidity}{54}{appendix.A}
-\contentsline {chapter}{\numberline {B}Tripleize application}{57}{appendix.B}
-\contentsline {chapter}{Bibliography}{61}{appendix*.27}
+\contentsline {section}{\numberline {3.1}DALICC}{39}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}DALICC Requirements}{39}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}DALICC Software Architecture}{40}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Project Concepts}{41}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Contract and Ontology specification}{42}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Technology Usage}{43}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Project Architecture}{47}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Backend}{47}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Front-end}{48}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Schematic Thema}{50}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}Implementation}{51}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}smart contract logic}{51}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Forntend Workflow}{54}{subsection.3.4.2}
+\contentsline {chapter}{\numberline {4}Conclusion}{56}{chapter.4}
+\contentsline {chapter}{\numberline {A}Smart Contract code in solidity}{57}{appendix.A}
+\contentsline {chapter}{\numberline {B}Tripleize application}{60}{appendix.B}
+\contentsline {chapter}{Bibliography}{64}{appendix*.26}

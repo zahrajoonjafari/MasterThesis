@@ -53,17 +53,20 @@
 \BOOKMARK [2][-]{subsection.2.3.3}{Indexng of Smart Contract}{section.2.3}% 53
 \BOOKMARK [2][-]{subsection.2.3.4}{EthOn}{section.2.3}% 54
 \BOOKMARK [0][-]{chapter.3}{Implementation: Dapp}{}% 55
-\BOOKMARK [1][-]{section.3.1}{Project Concepts}{chapter.3}% 56
-\BOOKMARK [2][-]{subsection.3.1.1}{Contract and Ontology specification}{section.3.1}% 57
-\BOOKMARK [2][-]{subsection.3.1.2}{Technology Usage}{section.3.1}% 58
-\BOOKMARK [1][-]{section.3.2}{Project Architecture}{chapter.3}% 59
-\BOOKMARK [2][-]{subsection.3.2.1}{Back-end}{section.3.2}% 60
-\BOOKMARK [2][-]{subsection.3.2.2}{Front-end}{section.3.2}% 61
-\BOOKMARK [2][-]{subsection.3.2.3}{Schematic Thema}{section.3.2}% 62
-\BOOKMARK [1][-]{section.3.3}{Implementation}{chapter.3}% 63
-\BOOKMARK [2][-]{subsection.3.3.1}{smart contract logic}{section.3.3}% 64
-\BOOKMARK [2][-]{subsection.3.3.2}{Forntend Workflow}{section.3.3}% 65
-\BOOKMARK [0][-]{chapter.4}{Conclusion}{}% 66
-\BOOKMARK [0][-]{appendix.A}{Smart Contract code in solidity}{}% 67
-\BOOKMARK [0][-]{appendix.B}{Tripleize application}{}% 68
-\BOOKMARK [0][-]{appendix*.27}{Bibliography}{}% 69
+\BOOKMARK [1][-]{section.3.1}{DALICC}{chapter.3}% 56
+\BOOKMARK [2][-]{subsection.3.1.1}{DALICC Requirements}{section.3.1}% 57
+\BOOKMARK [2][-]{subsection.3.1.2}{DALICC Software Architecture}{section.3.1}% 58
+\BOOKMARK [1][-]{section.3.2}{Project Concepts}{chapter.3}% 59
+\BOOKMARK [2][-]{subsection.3.2.1}{Contract and Ontology specification}{section.3.2}% 60
+\BOOKMARK [2][-]{subsection.3.2.2}{Technology Usage}{section.3.2}% 61
+\BOOKMARK [1][-]{section.3.3}{Project Architecture}{chapter.3}% 62
+\BOOKMARK [2][-]{subsection.3.3.1}{Backend}{section.3.3}% 63
+\BOOKMARK [2][-]{subsection.3.3.2}{Front-end}{section.3.3}% 64
+\BOOKMARK [2][-]{subsection.3.3.3}{Schematic Thema}{section.3.3}% 65
+\BOOKMARK [1][-]{section.3.4}{Implementation}{chapter.3}% 66
+\BOOKMARK [2][-]{subsection.3.4.1}{smart contract logic}{section.3.4}% 67
+\BOOKMARK [2][-]{subsection.3.4.2}{Forntend Workflow}{section.3.4}% 68
+\BOOKMARK [0][-]{chapter.4}{Conclusion}{}% 69
+\BOOKMARK [0][-]{appendix.A}{Smart Contract code in solidity}{}% 70
+\BOOKMARK [0][-]{appendix.B}{Tripleize application}{}% 71
+\BOOKMARK [0][-]{appendix*.26}{Bibliography}{}% 72
