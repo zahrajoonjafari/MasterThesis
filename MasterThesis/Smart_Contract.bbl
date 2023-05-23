@@ -1,0 +1,94 @@
+\begin{thebibliography}{}
+
+\bibitem[Allan~Third, 2017]{Third}
+Allan~Third, J.~D. (2017).
+\newblock Linked data indexing of distributed ledgers.
+\newblock In {\em WWW 17 Companion Proceedings of the 26th International
+  Conference on World Wide Web Companion}, volume~8.
+
+\bibitem[Fips, 2015]{fips}
+Fips (2015).
+\newblock Sha-3 standard: Permutation-based hash and extendable-output
+  functions.
+\newblock 37.
+
+\bibitem[Group, 2017]{DLT}
+Group, W.~B. (2017).
+\newblock {\em Distributed Ledger Technology(DLT) and Blockchain}.
+\newblock World Bank Group.
+
+\bibitem[Gupta, 2018]{Gupta}
+Gupta, M. (2018).
+\newblock {\em Blockchain for dummies}.
+\newblock John Wiley.
+
+\bibitem[Konstantinos~Christidis, 2016]{Christidis}
+Konstantinos~Christidis, M.~D. (2016).
+\newblock Blockchains and smart contracts for the internet of things.
+
+\bibitem[Markos, 2019]{Markos}
+Markos, K. (2019).
+\newblock Indexes for blockchain data.
+
+\bibitem[Matthew~English and Domingue, 2016]{Matthew}
+Matthew~English, S.~A. and Domingue, J. (2016).
+\newblock {Block Chain Technologies and The Semantic Web: A Framework for
+  Symbiotic Development}.
+\newblock 15.
+
+\bibitem[Max~Luke, 2018]{Luke}
+Max~Luke, Anna~Dimitrova, S. J. L. Z.~P. (2018).
+\newblock Blockchain in electricity: a critical review of progress to date.
+\newblock 38.
+
+\bibitem[Mirek~Sopek, 2018]{Sopek}
+Mirek~Sopek, Przemysław~Grądzki, W. K. D. K. R. T. R.~T. (2018).
+\newblock Www '18 companion proceedings of the the web conference 2018.
+\newblock In {\em GraphChain – A Distributed Database with Explicit Semantics
+  and Chained RDF Graphs}, volume~8.
+
+\bibitem[Pablo Lamela~Seijas, 2016]{Pablo}
+Pablo Lamela~Seijas, Simon~Thompson, D.~M. (2016).
+\newblock {Scripting smart contracts for distributed ledger technology}.
+\newblock 30.
+
+\bibitem[Payrott, 2017]{Payrott}
+Payrott, S. (2017).
+\newblock introduction to ethereum and smart contracts.
+\newblock 68.
+
+\bibitem[Pellegrini, 2017]{Tassilo}
+Pellegrini, T. (2017).
+\newblock Detecting licensing conflicts with dalicc.
+\newblock 5.
+
+\bibitem[P.K.~Paul1 and Ghosh, 2021]{Aithal}
+P.K.~Paul1, P.S.~Aithal, R.~S. and Ghosh, S. (2021).
+\newblock Blockchain in electricity: a critical review of progress to date.
+\newblock 13.
+
+\bibitem[Sukrit~Kalra, 2018]{Kalra}
+Sukrit~Kalra, Seep~Goel, M. D. S.~S. (2018).
+\newblock Zeus: Analyzing safety of smart contracts.
+\newblock 15.
+
+\bibitem[Tassilo~Pellegrini, 2018]{Anna}
+Tassilo~Pellegrini, Simon~Steyskal, O. P. A.~F. (2018).
+\newblock Automated rights clearance using semantic web technologies.
+\newblock 16.
+
+\bibitem[Ugarte, ]{Hector}
+Ugarte, H.
+\newblock A more pragmatic web 3.0: Linked blockchain data.
+
+\bibitem[Ugarte, 2018]{Ugarte}
+Ugarte, J. L.~R. (2018).
+\newblock Distributed ledger technology.
+\newblock 11.
+
+\bibitem[Umar~Rashid, 2018]{Rashid}
+Umar~Rashid, Allan~Third, J.~D. (2018).
+\newblock Web service for semantic negotiation of smart contracts.
+\newblock 6.
+
+\end{thebibliography}
