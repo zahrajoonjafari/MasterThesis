@@ -1,0 +1,22 @@
+
+prefix ethon: <http://ethon.consensys.net/> 
+prefix bi: <https://web3js.readthedocs.io/en/v1.2.11/web3-eth.html#getblock/> 
+prefix ibu: <https://web3js.readthedocs.io/en/v1.2.11/web3-eth.html#getblock/> 
+prefix ibs: <https://web3js.readthedocs.io/en/v1.2.11/web3-eth.html#getblock/> 
+prefix ibb: <https://web3js.readthedocs.io/en/v1.2.11/web3-eth.html#getblock/> 
+prefix ibtx: <https://web3js.readthedocs.io/en/v1.2.11/web3-eth.html#getblock/> 
+prefix ibb: <https://web3js.readthedocs.io/en/v1.2.11/web3-eth.html#getblock/> 
+prefix txi: <https://web3js.readthedocs.io/en/v1.7.3/web3-eth.html#gettransaction/> 
+prefix tx: <https://web3js.readthedocs.io/en/v1.7.3/web3-eth.html#gettransaction/> 
+prefix txi: <https://web3js.readthedocs.io/en/v1.7.3/web3-eth.html#gettransaction/> 
+prefix txri: <https://web3js.readthedocs.io/en/v1.7.3/web3-eth.html#gettransactionreceipt/>  
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+prefix xs: <http://www.w3.org/2001/XMLSchema#int.maxInclusive> 
+
+
+
+SELECT ?subject ?predicate ?object
+WHERE {
+  ?subject ?predicate ?object
+}
+  LIMIT 25
