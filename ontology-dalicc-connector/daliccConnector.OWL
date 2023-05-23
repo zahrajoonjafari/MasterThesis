@@ -1,0 +1,326 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/sima/ontologies/2021/8/testOnology#"
+     xml:base="http://www.semanticweb.org/sima/ontologies/2021/8/testOnology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/testOnology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountObjectProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountObjectProperty">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#controlsAccount"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#EthOnObjectProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#EthOnObjectProperty">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#partOf"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#StateObjectProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#StateObjectProperty">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#hasCurrentState"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#controlsAccount -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#controlsAccount">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#hasCurrentStorage"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#ExternalActor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#ExternalAccount"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountObjectProperty"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#hasCurrentState -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#hasCurrentState">
+        <owl:equivalentProperty rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#hasState"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#hasState"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#Account"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountState"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#StateObjectProperty"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#hasCurrentStorage -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#hasCurrentStorage">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountState"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountStorage"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountObjectProperty"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#hasState -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#hasState">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#StateObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#Account"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#ProtocolAccount"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountState"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#ProtocolState"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#StateObjectProperty"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#partOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#partOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#EthOnObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountState"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountStorage"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#WorldState"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#EthOnObjectProperty"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <owl:inverseOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountDataProperty -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountDataProperty">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#accountBalance -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#accountBalance">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountState"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#accountCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#accountCode">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#ContractAccount"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#hexBinary"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#accountCodeHash -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#accountCodeHash">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#ContractAccount"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#hexBinary"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#accountNonce -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#accountNonce">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountState"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#uri -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#uri">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#ExternalAccount"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+   
+
+  <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#title">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#ExternalAccount"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#address -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#address">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#Account"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#hexBinary"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#storageRoot -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#storageRoot">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountStorage"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#hexBinary"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#Account -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#Account">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountConcept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountConcept -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountConcept"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountState -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountState">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountConcept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountStorage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountStorage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountConcept"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#Agent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#Agent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#ContractAccount -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#ContractAccount">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#Account"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#ExternalAccount"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#ProtocolAccount"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#ExternalAccount -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#ExternalAccount">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#Account"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#ProtocolAccount"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#ExternalActor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#ExternalActor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#Agent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#ProtocolAccount -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#ProtocolAccount">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#Account"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#ProtocolState -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#ProtocolState">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#AccountState"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#WorldState -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/sima/ontologies/2021/8/untitled-ontology-21#WorldState"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

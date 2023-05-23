@@ -1,0 +1,57 @@
+prefix ethon: <http://ethon.consensys.net/>
+prefix eth: <http://ethon.consensys.net/>
+prefix bi: <https://web3js.readthedocs.io/en/v1.2.11/web3-eth.html#getblock/> 
+prefix ibu: <https://web3js.readthedocs.io/en/v1.2.11/web3-eth.html#getblock/> 
+prefix ibs: <https://web3js.readthedocs.io/en/v1.2.11/web3-eth.html#getblock/> 
+prefix ibb: <https://web3js.readthedocs.io/en/v1.2.11/web3-eth.html#getblock/> 
+prefix txi: <https://web3js.readthedocs.io/en/v1.7.3/web3-eth.html#gettransaction/> 
+prefix tx: <https://web3js.readthedocs.io/en/v1.7.3/web3-eth.html#gettransaction/> 
+prefix txi: <https://web3js.readthedocs.io/en/v1.7.3/web3-eth.html#gettransaction/> 
+prefix ibtx: <https://web3js.readthedocs.io/en/v1.7.3/web3-eth.html#gettransaction/> 
+prefix txri: <https://web3js.readthedocs.io/en/v1.7.3/web3-eth.html#gettransactionreceipt/>  
+prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
+
+
+
+
+ SELECT * WHERE {
+{
+  SELECT  ?number ?blockHash ?parentHash ?blockNonce  ?sha3Uncles ?logsBloom ?stateRoot 
+          ?blockDifficulty ?blockSize ?blockExtraData ?blockGasLimit ?blockGasUsed 
+          ?blockCreationTime ?txHash 
+  
+     WHERE   
+      {
+          { ?block ethon:number ?number . }
+          { ?block ethon:blockHash ?blockHash . }
+          { ?block ethon:hasParentBlock ?parentHash . }
+          { ?block ethon:blockNonce ?blockNonce . }
+          { ?block ethon:knowsOfUncle ?sha3Uncles . }
+          { ?block ethon:blockLogsBloom ?logsBloom . }
+          { ?block ethon:hasPostBlockState ?stateRoot . }
+          { ?block ethon:blockDifficulty ?blockDifficulty . }
+          { ?block ethon:blockSize ?blockSize . }
+          { ?block ethon:blockExtraData ?blockExtraData . }
+          { ?block ethon:blockGasLimit ?blockGasLimit . }
+          { ?block ethon:blockGasUsed ?blockGasUsed . }
+          { ?block ethon:blockCreationTime ?blockCreationTime . }
+
+
+      } 
+    
+  }
+    
+  {
+   SELECT  ?number ?tx ?txGasUsed ?txHash ?txNonce ?txIndex ?txGasPrice  
+     WHERE    {
+          
+          { ?block ethon:number ?number . }
+          { ?block ethon:containsTx ?tx . }
+          { ?tx ethon:txGasUsed  ?txGasUsed . }
+          { ?tx ethon:txHash ?txHash . }
+          { ?tx ethon:txNonce  ?txNonce . }
+          { ?tx ethon:txIndex ?txIndex . }
+          { ?tx ethon:txGasPrice ?txGasPrice . }
+        } 
+   }
+}
