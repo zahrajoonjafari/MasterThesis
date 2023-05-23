@@ -8,6 +8,8 @@
 To build app:
  - cd prject folder
  - npm start
+ - Browser will be opend with localhost:3000
+ - Start licensing 
   
  
  
