@@ -53,8 +53,7 @@ is presented as Linked Data, other related information can be easily retrieved a
 	
 \end{center}
 \subsection{RDF}
-The Resource Description Framework (RDF) is a family
-of W3C specifications. RDF is used to describe and model information. It describes a subject that predicts an object is called a triple.
+The Resource Description Framework (RDF) is a family of W3C specifications. RDF is used to describe and model information. It describes a subject that predicts an object is called a triple.
 i) Subjects that RDF expressions describe them.
 ii) predict is specific properties, attributes, or relation to describe a resource.
 iii) The object is the name of a property or value.
@@ -65,14 +64,14 @@ According to Wikipedia definition: It is a semantic query language for a dataset
 
 \subsection{Ontology Web Language }
 Ontology Web Language is made to represent knowledge about things and the relations among them. OWL is a computational logic-based language, which means the language modeled in OWL can operate in a computer program like negation, intersection, and so on\cite{Hector}.
-
 \subsection{Web 3.0}\cite{Hector}
 Evolution and interaction of people on the Internet is classified based on three technologies:\\
 \textit{Web 1.0} is known as \textit{web of document} is the earliest website with the basic capability of linking to other websites.\\
-\textit{Web 2.0} known as  \textit{web of people} has the capability of providing space for users to collaborate with content creation or modification.\\
+\textit{Web 2.0} known as \textit{web of people} has the capability of providing space for users to collaborate with content creation or modification.\\
 \textit{Web 3.0} is strengthened by the semantic web, where people have access to linked information on the web. But newly, with the arrival of distributed technology like blockchain, and Ethereum which get used by Web 3.0, this is a new focus on this.
 \section{Vocabularies}
 \subsection{Vocabulary in Distributed Ledger}
+
 Generating linked data requires to use a standard ontology or vocabulary to explain the blockchain concepts. Interfaces between distributed ledgers and the Semantic Web are still in an early stage. Some systems define such vocabulary such as FlexLedger, EthOn, BLONDiE\cite{Third}.\\
 
 \textbf{\textit{FlexLedger}}: describes HTTP interfaces to blockchains, with a standard vocabulary and responses of these interfaces. FLexLedger is a protocol for decentralized ledger and graph data model which represents ledger creation, querying, and data model using JSON-LD. However, FlexLedger does not have explicit vocabulary about ontology nor has concrete ontology for itself. \\
@@ -104,8 +103,7 @@ It is striking to say that the FlexLedger is not suitable to implement in some g
 	
 \end{center}
 
-\textbf{\textit{BLONDiE (Blockchain Ontology with Dynamic Extensibility)}} is another OWL ontology for describing the
-Blockchain structure like EthOn. But, it is more generic than EthOn. For example, EthOn and BLONDiE both defined some terms such as 'account', 'block', and 'transaction', and some attributes such as 'transaction payload' or 'miner address'. BLONDiE defines some other concepts for different Blockchain such as 'BitcoinBlockHeader' and 'EthereumBlockHeader' as subclasses of 'BlockHeader'. At the moment, BLONDiE supports two cryptocurrencies like bitcoin and Ethereum where all links and relationships between objects and attributes represent in RDF(Resource Description Framework)\cite{Third}.
+\textbf{\textit{BLONDiE (Blockchain Ontology with Dynamic Extensibility)}} is another OWL ontology for describing the Blockchain structure like EthOn. But, it is more generic than EthOn. For example, EthOn and BLONDiE both defined some terms such as 'account', 'block', and 'transaction', and some attributes such as 'transaction payload' or 'miner address'. BLONDiE defines some other concepts for different Blockchain such as 'BitcoinBlockHeader' and 'EthereumBlockHeader' as subclasses of 'BlockHeader'. At the moment, BLONDiE supports two cryptocurrencies like bitcoin and Ethereum where all links and relations between objects and attributes represent in RDF(Resource Description Framework)\cite{Third}.
 \begin{center}
 	\begin{figure}[htb!]
 		
@@ -123,7 +121,6 @@ Blockchain structure like EthOn. But, it is more generic than EthOn. For example
 As mentioned earlier, EthOn and BLONDiE are both similar concepts that can be used for smart contracts. As the smart contract is the executable software, the semantic and vocabulary apply to other software too.\\
 There are many works on semantic annotation of the web and HTTP APIs which may enable us to annotate smart contracts as well. However, the contracts are not Web API and implementation may differ but the main concept does not differ. In other words, the vocabularies used to annotate web services, are used to annotate smart contracts too. It seems that the combination of a distributed ledger with the smart contract and web service due to profitability becomes common\cite{Third}.
 
-
 \section{semantify Blockchain}
 \subsection{Semantic Blockchain}
 With increasing the usage of blockchain technology recently, the need for semantic reasoning on the distributed ledger is on the crease as well. The blockchain is the best platform to utilize semantic web principles in this technology and add a new trusted property to a dataset. It makes a new dataset so trustworthy. 
@@ -135,7 +132,7 @@ There are some \textbf{definition of semantic blockchain:}\\
 \subsection{Semantification process}
 Semantic blockchain or semantic distributed ledger affects the industrial world and subsequently, the result leads to start development new application and frameworks to combine two worlds:
 these are some ways to sanctify blockchain:\\
-\textbf{-}Mapping the blockchain data to RDF making usage of vocabulary, ontology, and so on.\\
+\textbf{-} Mapping the blockchain data to RDF making usage of vocabulary, ontology, and so on.\\
 \textbf{-} Storage of data in a blockchain is expensive, The only way is to store the hashing point to the data set in the blockchain and then share RDF on the blockchain. \\
 \textbf{-} Create semantic blockchain that internal data exchange protocol in RDF format\cite{Hector}. \\
 

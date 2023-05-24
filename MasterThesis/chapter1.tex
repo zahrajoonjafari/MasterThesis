@@ -31,7 +31,7 @@ Luke\cite{Luke}, refers to blockchain as a list of blocks that are linked to eac
     It is an alternative to proof-of-work that fewer CPU computations for mining. In proof of stack, the chance of mining the next block depends on node balance. 
     In private networks, however, where the participants know each other, consensus mechanisms such as proof of work are not required. This particularly removes the need for mining and gives us more variety of consensus protocols for picking from\cite{Christidis}.
     \item Proof of Authority: It confirms accounts and allows them to add a transaction in blocks. As this approach is much more centralized and transaction speed is faster, is prone to be attacked more than the other methods \cite{Luke}.
-    \item Proof of Stake: Blockchain tries to solve the problem called 'Byzantine Generals' which refers to some members on the network who send incoherent information related to the transaction to others. Since there is no authority on blockchain to correct them, leads to the unreliability of blockchain. The Practical Byzantine Fault Tolerance (PBFT) algorithm tries to achieve some algorithm to solve this issue in a way that uses the concept of primary and secondary "duplicates". Secondary copies automatically evaluate the decisions made by primitive and can collectively change to a primitive, if Primary is compromised \cite{Luke}.
+    \item Practical Byzantine Fault Tolerance: Blockchain tries to solve the problem called 'Byzantine Generals' which refers to some members on the network who send incoherent information related to the transaction to others. Since there is no authority on blockchain to correct them, leads to the unreliability of blockchain. The Practical Byzantine Fault Tolerance (PBFT) algorithm tries to achieve some algorithm to solve this issue in a way that uses the concept of primary and secondary "duplicates". Secondary copies automatically evaluate the decisions made by primitive and can collectively change to a primitive, if Primary is compromised \cite{Luke}.
 \end{itemize}
 Blockchain is associated with cryptocurrencies like Ethereum, bitcoin, lite coin, etc. Gupta (2017) identified five core attributes that blockchain builds trust through them:
 \begin{itemize}
@@ -56,7 +56,7 @@ That should be noted that all kinds of blockchains consist of nodes and works on
 \end{itemize}
 
  \section{Ethereum}
- Ethereum is the most active public blockchain in the world at present. It is another cryptocurrency similar to Bitcoin that is built on top of the blockchain. the participant publishes the transaction on the network and is then divided into a node (called the miner) and added to the blockchain using a consensus mechanism. The state of the system refers to the state of an account which can be an external account related to the user of the system(that contains information about balance) or a contract account that obtain a contract code or constant storage of that account. The virtual currency in this system is \textit{Ether}. The transaction can change the state of the system by creating a new contract or invoking an existing contract. calling the external account just transfers the Ether but calls the contract account to execute the code of that contract and may perform a transaction or change the storage of that account\cite{Ilya}.
+ Ethereum is the most active public blockchain in the world at present. It is another cryptocurrency similar to Bitcoin that is built on top of the blockchain. the participant publishes the transaction on the network and is then divided into a node (called the miner) and added to the blockchain using a consensus mechanism. The state of the system refers to the state of an account which can be an external account related to the user of the system(that contains information about balance) or a contract account that obtain a contract code or constant storage of that account. The virtual currency in this system is \textit{Ether}. The transaction can change the state of the system by creating a new contract or invoking an existing contract. To call the external account just transfers the Ether, but call the contract account executes the code of that contract too, Subsequently, execute contract may perform a transaction or change the storage of that account\cite{Ilya}.
 
 \section{How Ethereum works?}
 In this subsection, we will focus on the Ethereum workflow at a technical level.
@@ -93,12 +93,12 @@ The blockchain contains some information that we have used in our project, that'
         \item \textit{nonce} is several computations that have been done in the block.
     \end{itemize}
     \item \textbf{mining}
-    It is a process of computation on the blockchain to verify and add a block. Miner adds a new block and others check the validity of the new block. Any participant can take part in the mining pool, But the chance of finding valid depends on the power of the computer to perform calculations. Sometimes a miner will find an uncle block; an uncle block is a block that is initially valid but is surpassed by another faster block. Uncle block is rewarded with $\frac{7}{8}$ of full block value and hash will be added to a valid block. A max of two uncle blocks can add to a valid block and the miner of the valid block also receive $\frac{1}{32}$ extra ether for each uncle block\cite{Egbertsen}.
+    It is a process of computation on the blockchain to verify and add a block. Miner adds a new block and others check the validity of the new block. Any participant can take part in the mining pool, But the chance of finding valid block depends on the power of the computer to perform calculations. Sometimes a miner will find an uncle block; an uncle block is a block that is initially valid but is surpassed by another faster block. Uncle block is rewarded with $\frac{7}{8}$ of full block value and hash will be added to a valid block. A max of two uncle blocks can add to a valid block and the miner of the valid block also receive $\frac{1}{32}$ extra Ether for each uncle block\cite{Egbertsen}.
     \item \textbf{mining pool}
      Mining can be done alone or in the mining pool. A mining pool is a better way to solve a block and get rewards as compared to mining alone. Miners in the pool mine together and rewards will be split to all members in the pool\cite{Egbertsen}.
 \end{itemize}
 \subsection{Ether}
- Is the form of payment and fuel for Ethereum. The base for mining(find the solution and add block) successfully mining block is five ether. If the miner finds a solution but not fast, it becomes less ether like 4.375 ether, and will be uncle block. Each block can contain just two uncle blocks and receive $\frac{1}{32}$ per uncle block. If another miner also finds a solution. this block can not be added to the blockchain and the miner just receives 2-3 Ether\cite{Egbertsen}. 
+ Is the form of payment and fuel for Ethereum. The base for mining (find the solution and add block) successfully mining block is five Ether. If the miner finds a solution but not fast, it becomes less ether like 4.375 Ether, and will be uncle block. Each block can contain just two uncle blocks and receive $\frac{1}{32}$ per uncle block. If another miner also finds a solution. this block can not be added to the blockchain and the miner just receives 2-3 Ether\cite{Egbertsen}. 
 \subsection{Account}
 There are two types of accounts in Ethereum:\\
 - \textit{Normal account} is controlled by the private key. The owner of this account can send Ether or a message.\\
@@ -113,7 +113,7 @@ There are two types of accounts in Ethereum:\\
 \end{itemize}
 \textbf{Hash function}
 The process of SHA-3 standardization by NIST was completed in Auguts 2015.
-This standard specify SHA3 Secure hash algorithm-3 family of function on binary data. Each hash function is based on \textit{Kacak} algorithm that is known as NIST as winner of SHA-3 cryptographic hash algorithm competition. The SHA3 family includes four functions with different lengths of 224, 256, 384, and 512 bits. 
+This standard specify SHA3 (Secure hash algorithm-3) family of function on binary data. Each hash function is based on \textit{Kacak} algorithm that is known as NIST as winner of SHA-3 cryptographic hash algorithm competition. The SHA3 family includes four functions with different lengths of 224, 256, 384, and 512 bits. 
 In hash function, input called as \textit{message} and output called as  \textit{has value} which the length of message can vary but, the length of hash value is always fixed \cite{Fips}.\\
 
 \begin{center}
@@ -138,7 +138,7 @@ To enable easier calculations, Ether also has some sub-denominations\cite{Egbert
 \end{itemize}
 \begin{itemize}
     \item \textbf{Transaction}
-     \textit{Gavin Wood} described a transaction as a cryptography-signed instruction that is executed by an external actor. an external actor can be a human or another contract. transaction describes these fields:
+     \textit{Gavin Wood} described a transaction as a cryptography-signed instruction that is executed by an external actor. An external actor can be a human or another contract. Transaction describes these fields:
      \begin{itemize}
          \item \textit{nonce} is the number of transactions sent by the sender.
          \item \textit{gasPrice} is the number of Wei to be paid per unit of gas.
@@ -149,16 +149,16 @@ To enable easier calculations, Ether also has some sub-denominations\cite{Egbert
         \item \textbf{Message}
         As already said blockchain fires transactions when receiving a transaction. When an account sends a transaction means sending a message. The message contains all attributes the same as a transaction, but $gasPrice$. the only difference between message and transaction is that message is fired by contract\cite{Egbertsen}.
 \end{itemize}
-\subsection{Contracts}  is an account in the Ethereum blockchain having its code and controlled by code. The code inside the contract is triggered whenever it receives a message, allowing it to read and write contract storage or send a message. \\
-A contract in Ethereum is an autonomous agent that performs some operations which are programmed to fulfill the user's goals, meaning that the contract is an alive autonomous agent which is executed when it receives a message or transaction,  having control over its balance and the key /value store to constant variables.
+\subsection{Contracts} is an account in the Ethereum blockchain having its code and controlled by code. The code inside the contract is triggered whenever it receives a message, allowing it to read and write contract storage or send a message. \\
+A contract in Ethereum is an autonomous agent that performs some operations which are programmed to fulfill the user's goals, meaning that the contract is an alive autonomous agent which is executed when it receives a message or transaction, having control over its balance and the key /value store to constant variables.
 the key and values stored in the contract are long-lasting and get used whenever the contract starts running \cite{Egbertsen}.
 
 \subsection{smart contract}
  The term smart contract was coined in 1994 by Nick Szabo who released that DLT can be used for smart contracts. 
-According to Nick Szabo \textit{A smart contract is a computerized transaction protocol that executes the terms of a contract}\footnote{https://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/smart.contracts.html}. He visualized an away to write agreement which enforces the conditions between parties involved in transaction automatically and more efficiently.
+According to Nick Szabo \textit{A smart contract is a computerized transaction protocol that executes the terms of  a contract}\footnote{https://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/smart.contracts.html}. He visualized an away to write agreement which enforces the conditions between parties involved in transaction automatically and more efficiently.
 Smart contracts run by each node as part of the block creation process. Block creation means when transactions take place in the block.
 An important part of a smart contract is that each contract has its address. Since the contract code is con carried to the transaction, a node can create the spacial transaction, assigning an address to the contract, then this transaction is capable to run contract code at the time of creation.\\
-After that, the contract will be part of the block and the address will never change. whenever the node wants to call a method inside the contract, should send a message to the address of the contract having the method and input data.
+After that, the contract will be part of the block and the address will never change. Whenever the node wants to call a method inside the contract, should send a message to the address of the contract having the method and input data.
 the contract will run as the part of creation of a new block, then return value or store data in the blockchain. \cite{Payrott}.
 
 \textbf{Solidity} is high-level truing complete language with Java script similar syntax. The contract is similar to classes in an object-oriented language which contains the fields as persistent storage of contracts and methods to be invoked by internal and external transactions. For interacting with another contract, you either need to create a new instance of this contract or make a transaction to a known contract address.\\
