@@ -1,6 +1,6 @@
 \chapter{DALICC}
 \section{DALICC}
-According to \textit{Tassilo}, DALICC stands for Data Licenses Clearance Center. It is a software framework that helps people to legally secure data from a third party and help to detect licensing conflicts and reduce the costs of rights clearance by enabling automated clearance right in the creation of derivative works \cite{Tassilo}. 
+According to Pellegrini \cite{Tassilo}, DALICC stands for Data Licenses Clearance Center. It is a software framework that helps people to legally secure data from a third party and help to detect licensing conflicts and reduce the costs of rights clearance by enabling automated clearance right in the creation of derivative works \cite{Tassilo}. 
 \subsection{DALICC Requirements}
 The following requirements would be addressed by the DALICC framework:\\
 \begin{itemize}
@@ -8,16 +8,12 @@ The following requirements would be addressed by the DALICC framework:\\
 	It is possible to combine the various contents which have the same license with different names. But that would be much more difficult to license the resultant of the combined contents. To solve this issue, DALICC provides a set of machine-readable representations of licenses that allow us to compare licenses to each other to identify the equivalent licenses. It guides the user to possible conflicts of various combined licenses.
 	\item \textit{Tackling REL heterogeneity:} \\
 	Combing licenses are simple if they are expressed through the same RELs. But, it is difficult to compare licenses that have been represented by different RELs.\\
-<<<<<<< HEAD
 	DALICC resolves this problem, by representing RELs based on the semantic web and mapping the terms to each other. It will represent exiting RELs based on W3C-approved standards, thus allowing mapping between various RELs to be created.
-=======
-	DALICC resolves this problem, by representing RELs based on the semantic web and mapping the terms to each other. It will represent exiting RELs based on  W3C-approved standards, thus allowing mapping between various RELs to be created.
->>>>>>> 4a4669b167ccdcae4c1a8fcfafc208ddf7829d19
 	\item \textit{Compatibility check, conflict detection and neutrality of the rules:} \\
 	It is difficult to be sure if the meaning of the different terms in semantics is aligned. These problems result from indicating the classes, instances, and properties which can not be handled just by mapping.\\
 	This is where DALICC comes to play and helps the user with a workflow that defines the usage context, then gathers additional information to detect conflicts and ambiguous concepts. Based on this information, DALICC makes reasoning over the set of licenses and infers the instruction to the user on how to process with license processing.\\
 	\item \textit{Legal validity of representations and machine recommendations:} \\
-	According to Anna Fensel\cite{Anna}, The semantic complexity of licensing issues means that the semantics of RELs must be aligned within the specific application scenario. This includes a correct interpretation of the various national legislation according to the country of origin of a jurisdiction (i.e. German Urheberrecht vs. US copyright), the resolution of problems that are derived from multilingual, and the consideration of existing case law in the resolution of licensing conflicts.\cite{Anna}\\
+	According to Anna Fensel et al.\cite{Anna}, The semantic complexity of licensing issues means that the semantics of RELs must be aligned within the specific application scenario. This includes a correct interpretation of the various national legislation according to the country of origin of a jurisdiction (i.e. German Urheberrecht vs. US copyright), the resolution of problems that are derived from multilingual, and the consideration of existing case law in the resolution of licensing conflicts.\cite{Anna}\\
 	To solve this problem, DALICC will check the legal validity of machine-readable licenses and the compatibility of reasoning engine output with the law. DALICC output will be tested against the law and checked the semantic precision derived from different languages and adjusted them\cite{Anna}.
 	
 \end{itemize}

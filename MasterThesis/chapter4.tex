@@ -17,21 +17,18 @@ DApp uses the ethereum as backend of its data storage and processing using smart
 	
 \end{center}
 
-\section{DApp and Ethereum blockchain}
+\section{DApp and Ethereum Blockchain}
 The benefit of using the Ethereum blockchain in DApps are as follows:
  \begin{itemize}
      \item 1- The user can see what is going on before submitting any data.
      \item 2- Once the user has interaction, no one can temper or delete data.
      \item 3- The user of the application can directly participate in application management.
  \end{itemize}
-
-     
-
 \section{Project Concepts}
 
 In this section, we focused on the requirements that we need to address in our application.
 \\
-\subsection{Contract and Ontology specification}
+\subsection{Contract and Ontology Specification}
 Here, it is explained some terms related to smart contracts and the ontology of our application. And we needed them as the primary requirement to build up this dApp.
 \begin{itemize}
 	\item \textbf{Definition 1 (Owner)} is the address of deployed contract or transaction to the blockchain. That is the first person who interacts with the contract. In this case, the owner can change her/his license of the file.\\
@@ -130,7 +127,7 @@ The idea is to use a graph-based data model to clarify survived transaction, the
 Authentication of users on Ethereum for validation purposes is the essential feature when building dApp.  Therefore, programming the functionality of Ethereum authentication for dApps is important for blockchain developers. 
 In this dApp, we consider two solutions for Ethereum authentications as follows: \\
 \\
-\textit{- login to Metamask:} Metamask is the most popular cryptocurrency wallet (Ethereum account) to support the Ethereum blockchain. Additionally, metamask is a bridge for web3 authentication to an Ethereum-based decentralized application. By logging into Metamsk, users can submit transactions or check the stored data on the blockchain.\\
+\textit{- login to metamask:} Metamask is the most popular cryptocurrency wallet (Ethereum account) to support the Ethereum blockchain. Additionally, metamask is a bridge for web3 authentication to an Ethereum-based decentralized application. By logging into Metamsk, users can submit transactions or check the stored data on the blockchain.\\
 \textit{- Using smart contract: } The address of the metamask is passed to smart contract as a licensor, then it will
 use this address as an owner to license his/her file. \\
 \\
@@ -161,7 +158,7 @@ library web3.js is an interface to the Ethereum Network for the frontend of this
  			
  			\includegraphics[width=1.45\textwidth]{images/chap03_user_roadmap.png}
  		\end{minipage}
- 		\caption{DApp Architecture}
+ 		\caption{Sequence diagram for licensing file}
   	\end{figure}
   \end{center}
  \textbf{Interaction with backend}\\
@@ -198,7 +195,7 @@ This application encompasses some components:
 \section{Implementation}
 This section comprises the implementation details in a smart contract and some main functions in the application.
 
-\subsection{smart contract logic}
+\subsection{Smart Contract Logic}
 As mentioned before, the backend code of this application is on the Ethereum network. in this section, we will contemplate more on each functionality of the contract in this dApp.
 \begin{itemize}
 	\item \textit{Owned contract} \\
@@ -226,12 +223,12 @@ As mentioned before, the backend code of this application is on the Ethereum net
 	
 \end{center}
 
-\text{How Smart contract works?}
+\text{How Smart Contract works?}
 
 \begin{itemize}
-	\item \textbf{Licensing System Process} \\
+	\item \textbf{Licensing system process} \\
 	To license data, two parameters are needed. The first one is the hash of related data and the second one is the address related to the URI of the license. This smart contract as a \textit{caller} take over the process: \\
-	\textbf{License Data} \\
+	\textbf{License data} \\
 	To license data, the function \textit{licenseData} is used which declares with two parameters: the first one is the hash associated with selected data, and the second one is the URI of the selected license. By pressing the 'License Data/retrieve license on the frontend, the function
 	\textit{licenseData} would be triggered and perform the steps as follow: \\
 	This function checks if the target address is the zero account, which means the transaction creates a new contract: 
@@ -246,7 +243,7 @@ As mentioned before, the backend code of this application is on the Ethereum net
 		\item At the end, the event should be emitted to fire the new changes in PrimaryLicenseContarct.
 		
 	\end{itemize}
-	\item \textbf{Change License data} \\
+	\item \textbf{Change license data} \\
 	This is doable just by the licensor in the same way as license data.  \\
 	\item \textbf{Retrieve license information} \\
 	To retrieve license information function \textit{getLicenseInfo} is called having a hash of data as a parameter and checks if there is some license information related to this hash, then is returned the address otherwise, returns a null address and string.
@@ -342,7 +339,7 @@ As mentioned before, the backend code of this application is on the Ethereum net
 			\centering
 			\includegraphics[width=1.95\textwidth]{images/chap03_license_hash.png}
 		\end{minipage}
-		\caption[license hash after confirming transaction]{license hash after confirming transaction}
+		\caption[License hash after confirming transaction]{License hash after confirming transaction}
 		
 	\end{figure}
 \end{center}
@@ -355,7 +352,7 @@ As mentioned before, the backend code of this application is on the Ethereum net
 			\centering
 			\includegraphics[width=1.95\textwidth]{images/chap03_confirm_tx.jpg}
 		\end{minipage}
-		\caption[transaction confirmation]{transaction confirmation}
+		\caption[Transaction confirmation]{Transaction confirmation}
 		
 	\end{figure}
 	
@@ -372,7 +369,7 @@ As mentioned before, the backend code of this application is on the Ethereum net
 			\centering
 			\includegraphics[width=1.95\textwidth]{images/chap03_licese_result_1.png}
 		\end{minipage}
-		\caption[result of semantic mapping]{result of semantic mapping}
+		\caption[Result of semantic mapping]{Result of semantic mapping}
 		
 	\end{figure}
 	
@@ -384,7 +381,7 @@ As mentioned before, the backend code of this application is on the Ethereum net
 			\centering
 			\includegraphics[width=1.95\textwidth]{images/chap03_licese_result_2.png}
 		\end{minipage}
-		\caption[result of semantic mapping]{result of semantic mapping}
+		\caption[Result of semantic mapping]{Result of semantic mapping}
 		
 	\end{figure}
 	
