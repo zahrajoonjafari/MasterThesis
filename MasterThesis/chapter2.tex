@@ -15,8 +15,8 @@ blockchain as a modeling form used a different type of ontology: \\
 \\
 \textbf{\textit{Formal ontology}} helps the formal specification to automate inference and verify the operation of the blockchain. In other words, blockchain modeling based on formal ontology can help the development of smart contracts to execute on the blockchain.\\
 \\
-Also, we can use ontology to capture data within blockchain: On one hand, It facilitates a better understanding of blockchain concepts for humans. On the other hand, enables interlinking with other linked data to convey deductions and formal reasoning\cite{Kim}.\\
-Vocabulary used within ontology increases the transparency of transactions by describing the transaction in the context of linked data and facilitating the graphical representation of the location of such transactions. Thus, it increases also the capability of analysis by users\cite{Kim}.
+Also, we can use ontology to capture data within blockchain: On one hand, It facilitates a better understanding of blockchain concepts for humans. On the other hand, enables interlinking with other linked data to convey deductions and formal reasoning \cite{Kim}.\\
+Vocabulary used within ontology increases the transparency of transactions by describing the transaction in the context of linked data and facilitating the graphical representation of the location of such transactions. Thus, it increases also the capability of analysis by users \cite{Kim}.
 
 \begin{center}
 	
@@ -27,7 +27,7 @@ Vocabulary used within ontology increases the transparency of transactions by de
 			\centering
 			\includegraphics[width=1.65\textwidth]{images/chap02_diagram_ontology.png}
 		\end{minipage}
-		\caption[Illustration of ontology diagram]{Illustration of ontology diagram\cite{Matthew}}
+		\caption[Illustration of ontology diagram]{Illustration of ontology diagram \cite{Matthew}}
 		
 		
 	\end{figure}
@@ -41,7 +41,7 @@ is presented as Linked Data, other related information can be easily retrieved a
 \textbf{- URIs} (Uniform Resource identifier) as names.\\ 
 \textbf{- HTTP} to search for names.\\
 \textbf{- (SPARQL, RDF)}  when a user searches for something, provides related information.\\
-\textbf{- Link} to other URLs to provide more information\cite{Hector}.\\
+\textbf{- Link} to other URLs to provide more information \cite{Hector}.\\
 
 \begin{center}
 	\begin{figure}[htb!]
@@ -50,7 +50,7 @@ is presented as Linked Data, other related information can be easily retrieved a
 			\centering
 			\includegraphics[width=1.55\textwidth]{images/chap02_LinkData.png}
 		\end{minipage}
-		\caption[Linked data diagram]{Linked data diagram\cite{Hector}}
+		\caption[Linked data diagram]{Linked data diagram \cite{Hector}}
 		
 		
 	\end{figure}
@@ -61,13 +61,13 @@ The Resource Description Framework (RDF) is a family of W3C specifications. RDF 
 i) Subjects that RDF expressions describe them.
 ii) predict is specific properties, attributes, or relation to describe a resource.
 iii) The object is the name of a property or value.
-We can build a graph based on these three objects\cite{Hector}.
+We can build a graph based on these three objects \cite{Hector}.
 
 \subsection{SPARQL}
 According to Wikipedia definition: It is a semantic query language for a dataset that makes us able to retrieve and modify data stored in RDF format known as triple. SPARQL can query the one, two, or all elements of triples.    
 
 \subsection{OWL (Ontology Web Language) }
-Ontology Web Language is made to represent knowledge about things and the relations among them. OWL is a computational logic-based language, which means the language modeled in OWL can operate in a computer program like negation, intersection, and so on\cite{Hector}.
+Ontology Web Language is made to represent knowledge about things and the relations among them. OWL is a computational logic-based language, which means the language modeled in OWL can operate in a computer program like negation, intersection, and so on \cite{Hector}.
 \subsection{Web 3.0}
 Evolution and interaction of people on the Internet are classified based on three technologies:\\
 \textit{Web 1.0} is known as \textit{web of document} is the earliest website with the basic capability of linking to other websites.\\
@@ -76,12 +76,12 @@ Evolution and interaction of people on the Internet are classified based on thre
 \section{Vocabularies}
 \subsection{Vocabulary in Distributed Ledger}
 
-Generating linked data requires to use of a standard ontology or vocabulary to explain the blockchain concepts. Interfaces between distributed ledgers and the Semantic Web are still in an early stage. Some systems define such vocabulary such as FlexLedger, EthOn, BLONDiE\cite{Third}.\\
+Generating linked data requires to use of a standard ontology or vocabulary to explain the blockchain concepts. Interfaces between distributed ledgers and the Semantic Web are still in an early stage. Some systems define such vocabulary such as FlexLedger, EthOn, BLONDiE \cite{Third}.\\
 \\
-\textbf{\textit{FlexLedger}}: describes HTTP interfaces to blockchains, with a standard vocabulary and responses of these interfaces. FLexLedger is a protocol for decentralized ledger and graph data model which represents ledger creation, querying, and data model using JSON-LD. However, FlexLedger does not have explicit vocabulary about ontology nor has concrete ontology for itself. \\
+\textbf{\textit{FlexLedger}} describes HTTP interfaces to blockchains, with a standard vocabulary and responses of these interfaces. FLexLedger is a protocol for decentralized ledger and graph data model which represents ledger creation, querying, and data model using JSON-LD. However, FlexLedger does not have explicit vocabulary about ontology nor has concrete ontology for itself. \\
 It is striking to say that the FlexLedger is not suitable to implement in some graph models like graph chain because in FlexLedger meta and the content data are stored together in the same graph whereas the GraphChain blocks’ content is stored outside the blockchain a separate graph \cite{Sopek}.\\
 \\
-\textbf{\textit{EthOn}} is an OWl ontology that describes blockchain classes such as \textit{"blocks, accounts, message", "state"} and relations such \textit{"has parent block"}\cite{Rashid}. 
+\textbf{\textit{EthOn}} is an OWl ontology that describes blockchain classes such as \textit{"blocks, accounts, message", "state"} and relations such \textit{"has parent block"} \cite{Rashid}. 
 \begin{center}
 	
 	\begin{figure}[htb!]
@@ -90,7 +90,7 @@ It is striking to say that the FlexLedger is not suitable to implement in some g
 			\centering
 			\includegraphics[width=1.80\textwidth]{images/chap2_EthOnContract.png}
 		\end{minipage}
-		\caption[EthOn classes]{EthOn contract model(blue arrow is object properties, green arrow is data properties, purple circle is instance and blue one is class)\cite{Rashid}}
+		\caption[EthOn classes]{EthOn contract model(blue arrow is object properties, green arrow is data properties, purple circle is instance and blue one is class) \cite{Rashid}}
 		
 	\end{figure}
 	
@@ -100,13 +100,13 @@ It is striking to say that the FlexLedger is not suitable to implement in some g
 			\centering
 			\includegraphics[width=1.65\textwidth]{images/chap02_EthOn_Properties.png}
 		\end{minipage}
-		\caption[EthOn Properties]{EthOn classes\cite{Rashid}}
+		\caption[EthOn Properties]{EthOn classes \cite{Rashid}}
 		
 		
 	\end{figure}
 	
 \end{center}
-\textbf{\textit{BLONDiE (Blockchain Ontology with Dynamic Extensibility)}} is another OWL ontology for describing the Blockchain structure like EthOn. But, it is more generic than EthOn. For example, EthOn and BLONDiE both defined some terms such as 'account', 'block', and 'transaction', and some attributes such as 'transaction payload' or 'miner address'. BLONDiE defines some other concepts for different Blockchain such as 'BitcoinBlockHeader' and 'EthereumBlockHeader' as subclasses of 'BlockHeader'. At the moment, BLONDiE supports two cryptocurrencies like bitcoin and Ethereum where all links and relations between objects and attributes represent in RDF(Resource Description Framework)\cite{Third}.
+\textbf{\textit{BLONDiE (Blockchain Ontology with Dynamic Extensibility)}} is another OWL ontology for describing the Blockchain structure like EthOn. But, it is more generic than EthOn. For example, EthOn and BLONDiE both defined some terms such as 'account', 'block', and 'transaction', and some attributes such as 'transaction payload' or 'miner address'. BLONDiE defines some other concepts for different Blockchain such as 'BitcoinBlockHeader' and 'EthereumBlockHeader' as subclasses of 'BlockHeader'. At the moment, BLONDiE supports two cryptocurrencies like bitcoin and Ethereum where all links and relations between objects and attributes represent in RDF (Resource Description Framework) \cite{Third}.
 \begin{center}
 	\begin{figure}[htb!]
 		
@@ -114,14 +114,14 @@ It is striking to say that the FlexLedger is not suitable to implement in some g
 			\centering
 			\includegraphics[width=1.75\textwidth]{images/chap02_BLONDiE.png}
 		\end{minipage}
-		\caption[BLONDiE]{BLONDiE usage example\cite{Hector}}
+		\caption[BLONDiE]{BLONDiE usage example \cite{Hector}}
 		
 		
 	\end{figure}
 	
 \end{center}
 \subsection{Vocabulary in Smart Contracts}
-As mentioned earlier, EthOn and BLONDiE are both similar concepts that can be used for smart contracts. There are many works on semantic annotation of the web and HTTP APIs which may enable us to annotate smart contracts as well. However, the contracts are not Web API and implementation may differ but the main concept does not differ. In other words, the vocabularies used to annotate web services, are used to annotate smart contracts too. It seems that the combination of a distributed ledger with the smart contract and web service due to profitability becomes common\cite{Third}.
+As mentioned earlier, EthOn and BLONDiE are both similar concepts that can be used for smart contracts. There are many works on semantic annotation of the web and HTTP APIs which may enable us to annotate smart contracts as well. However, the contracts are not Web API and implementation may differ but the main concept does not differ. In other words, the vocabularies used to annotate web services, are used to annotate smart contracts too. It seems that the combination of a distributed ledger with the smart contract and web service due to profitability becomes common \cite{Third}.
 
 \section{Semantify Blockchain}
 \subsection{Semantic Blockchain}
@@ -136,13 +136,13 @@ Semantic blockchain or semantic distributed ledger affects the industrial world 
 these are some ways to samantify blockchain:\\
 \textbf{-} Mapping the blockchain data to RDF making usage of vocabulary, ontology, and so on.\\
 \textbf{-} Storage of data in a blockchain is expensive, The only way is to store the hashing point to the data set in the blockchain and then share RDF on the blockchain. \\
-\textbf{-} Creating semantic blockchain that exchanges internal data protocol in RDF format\cite{Hector}. \\
+\textbf{-} Creating semantic blockchain that exchanges internal data protocol in RDF format \cite{Hector}. \\
 
 \subsection{Semantic Ontology Mapping using BLONDiE} 
 To generate RDF, it needs to map the basic blockchain entities to relevant semantic web terms, concepts, and ontology. To make the query more efficient, BLONDiE is extended in two ways: Firstly, records relating to both block and transactions have been
 augmented with an attribute for the hash of each entity. Secondly, records relating to the transactions have been augmented with links to entities like blocks or smart contracts.\\
 Blockchain stores just a binary form of each contract with metadata.   
-To interact with the contract Application Binary (ABI) Interface specification is required. This specification is in the form of JSON and is created when a smart contract is compiled and stored in the blockchain. The ABI determines all functions of contracts and descriptions about input, and output parameters for each contract\cite{Third}.
+To interact with the contract Application Binary (ABI) Interface specification is required. This specification is in the form of JSON and is created when a smart contract is compiled and stored in the blockchain. The ABI determines all functions of contracts and descriptions about input, and output parameters for each contract \cite{Third}.
 
 \begin{center}
 	\begin{figure}[htb!]
