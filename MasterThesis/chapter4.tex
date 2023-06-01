@@ -1,7 +1,7 @@
 \chapter{Implementation: DApp}
 DApp is often described as P2P, trustless with a special characteristic that there is not a single server to control it. DApp includes at least one User interface or frontend that could be a Mobile app, Desktop application installed on a computer.\\
 The data relating to the application could be provided by a single group or company or may provide by end users themselves. Finally, it involved some kind of data manipulation. \\
-DApp uses the ethereum as backend of its data storage and processing using smart contracts. The user interface of DApp is usually like traditional websites but is one website plus one or multiple smart contracts.
+DApp uses the ethereum as backend of its data storage and processing using smart contracts. The user interface of DApp is usually like traditional websites but is one website plus one or multiple smart contracts \cite{William}.
 
 \begin{center}
 	
@@ -18,7 +18,7 @@ DApp uses the ethereum as backend of its data storage and processing using smart
 \end{center}
 
 \section{DApp and Ethereum Blockchain}
-The benefit of using the Ethereum blockchain in DApps are as follows:
+The benefit of using the Ethereum blockchain in DApps are as follows \cite{William}:
  \begin{itemize}
      \item 1- The user can see what is going on before submitting any data.
      \item 2- Once the user has interaction, no one can temper or delete data.
@@ -46,9 +46,9 @@ Here, it is explained some terms related to smart contracts and the ontology of 
      \textbf{Definition 6 (Triple)} defined in Wikipedia as a statement with three entities that codifies semantic data in the form of \textit{Subject-predict-Object} expressions.\\
 \end{itemize}
 \subsection{Technology Usage}
-\textbf{DApp} \\
-It is a type of open-source smart contract application that runs on a decentralized peer-to-peer network rather than a centralized server. It allows users to transparently execute a transaction on a distributed network. \\
-DApp is similar to centralized apps, as they use frontend and backend. But the backend's app is supported by a centralized server or database. And Backend's DApp runs on a decentralized p2p network and is supported by smart contracts which store on the Ethereum blockchain.\\
+\textbf{DApp \footnote{https://www.techtarget.com/iotagenda/definition/blockchain-dApp}} \\
+Based on Internet definition, it is a type of open-source smart contract application that runs on a decentralized peer-to-peer network rather than a centralized server. It allows users to transparently execute a transaction on a distributed network. \\
+DApp is similar to centralized apps, as they use frontend and backend. But the backend's app is supported by a centralized server or database. And Backend's DApp runs on a decentralized P2P network and is supported by smart contracts which store on the Ethereum blockchain.\\
 \\
 \textbf{Decentralized application characteristic:}\\
 	\textit{Open Source}: all the required are decided on a census of all available users on a network.\\
@@ -61,8 +61,8 @@ it is explained in section 1.4.\\
 \textbf{Solidity} \\
 it is explained in section 1.5.5.\\
 \\
-\textbf{SHA3-256} \\It is explained in section 1.5.3.
-\textit{message} is the additional input parameter in text type\cite{fips}.\\
+\textbf{SHA3-256} \\It is explained in section 1.5.3.\\
+\\
 \textbf{Java Script Tools} 
 \begin{itemize}
   \item \texttt{Truffle} is the smart contract development tools and testing network for blockchain applications and supports developers who are looking to build their dApp, etc. \\
@@ -72,12 +72,12 @@ it is explained in section 1.5.5.\\
  \textit{- Network management} helps developers by managing their artifacts. \\
  \textit{- Truffle console} allows the developer to access all truffle commands and built contracts \footnote{https://moralis.io/truffle-explained-what-is-the-truffle-suite}.
 \\
-\item \texttt{React. js} is an open-source JavaScript framework which used as a frontend. In react, a developer builds a web application by using reusable individual components that are assembled from an application's whole user interface.\\
+\item \texttt{React.js} is an open-source JavaScript framework which used as a frontend. In react, a developer builds a web application by using reusable individual components that are assembled from an application's whole user interface.\\
 React has the advantage of providing a feature that combines the speed of JavaScript with a more efficient method of managing DOM to render web pages faster and create more responsive web application \footnote{https://blog.hubspot.com/website/react-js}.\\
-\item \texttt{crypto. js} is the JavaScript library that performs data encryption and decryption. It is a collection of standard algorithms including SHA3-256 \footnote{{https://github.com/jakubzapletal/crypto-js}}.
+\item \texttt{crypto.js} is the JavaScript library that performs data encryption and decryption. It is a collection of standard algorithms including SHA3-256 \footnote{{https://github.com/jakubzapletal/crypto-js}}.
 \item \texttt{Web3.js} helps developer to connect to Ethereum blockchain. It is a collection of libraries that allows developers to perform some actions like sending ether, checking data from smart contracts, and creating smart contracts \footnote{https://www.datastax.com/guides/what-is-web3.js}.\\
 \item \texttt{axios} provides the HTTP requests from the browser and handles request/response data \footnote{https://axios-http.com/docs/intro}. \\
-\item \texttt{HDwallet provider} is a package to help the developer to connect to the network. It is easy to configure the connection network to the Ethereum blockchain through \textit{infura}. This provider is used by Truffle when we deploy the contract. In addition, meta mask providers are also used when we want to interact with the contract in the browser.\\
+\item \texttt{HDwallet provider} is a package helps developer to connect to network by configuring the connection network to the Ethereum blockchain through \textit{infura}. This provider is used by Truffle when we deploy the contract. In addition, meta mask providers are also used when we want to interact with the contract in the browser.\\
 HDwallet provider provides a custom URL: 'http://127.0.0.1:7545'. This will spawn a development blockchain locally on port 7545 \footnote{https://github.com/trufflesuite/truffle-hdwallet-provider}. \\
 \item \texttt{Express.js} is node.js framework for authority dApp. It provides HTTP methods (GET, POST) to call functions for particular URL routes \footnote{https://www.simplilearn.com/tutorials/nodejs-tutorial/what-is-express-js}. \\ 
 When we run dApp, we have an HTTP server located on port 3000. \\
@@ -88,20 +88,19 @@ When we run dApp, we have an HTTP server located on port 3000. \\
 \begin{itemize}
 	\item \textit{EthOn Ontology} is semantic view of ethereum blockchain. It encompasses different classes and relations to cover different concepts of Ethereum like blocks, transactions, and messages to formalize RDF triple. We used classes and properties related to transaction concepts as a template to model our transaction to DALICC \footnote{https://axios-http.com/docs/intro}.
 	\item \textit{SPARQL query} is defined in the section 2.1.4.
-	\item \textit{Command-Line SPARQL with Jena} is a utility of Apache Jena that runs queries on remote SPARQL endpoint or RDF files that would be lo located on a local computer or web. We used the command as follows:\\
-	 - Using Command line : \textit{sparql --data rdfFile --query sparqlFile}
-	
+	\item \textit{Command-Line SPARQL with Jena} is a utility of Apache Jena that runs queries on remote SPARQL endpoint or RDF files that would be lo located on a local computer or web. We used the command as follows \footnote{http://richard.cyganiak.de/blog/wp-content/uploads/2013/09/jena-sparql-cli-v1.pdf}:\\
+	 - Using Command line : \textit{sparql --data rdfFile --query sparqlFile} 
 \end{itemize}
 \textbf{Ethereum Tools}
 
 \begin{itemize}
-\item \textit{Infura}, According to the internet definition, a web3 backend and infrastructure-as-a-Service (IaaS) provider offers a range of tools to help the developer to build dApp to connect to the Ethereum blockchain.\\
-\item \textit{Metamask Wallet} Metamask is a wallet used to interact with the Ethereum blockchain. It allows users to connect network through a browser extension or mobile app. Metamask wallet, including all accounts, each account has its private key \footnote{https://originstamp.com/blog/metamask-what-is-it-and-how-does-it-work/}.\\
-\item \textit{Faucet(ETH faucet)} is the platform that gives some test tokens to a user to test smart contracts or send transactions before deploying them to the main net. \\
-\item \textit{Testnets} are the test blockchain networks that perform similarly to the main blockchain (mainnet). This allows developers to execute their contracts on test blockchain freely \footnote{https://blog.infura.io/post/introducing-infuras-eth-testnet-faucet-get-0-5-eth-daily-to-test-your-dapps}.\\
+\item \textit{Infura} is a web3 backend and infrastructure-as-a-Service (IaaS) provider that offers a range of tools to help the developer to build dApp to connect to the Ethereum blockchain \footnote{https://blog.infura.io/post/getting-started-with-infura-28e41844cc89}.\\
+\item \textit{Metamask} is a wallet used to interact with the Ethereum blockchain. It allows users to connect network through a browser extension or mobile app. Metamask wallet, including all accounts, each account has its private key \footnote{https://originstamp.com/blog/metamask-what-is-it-and-how-does-it-work/}.\\
+\item \textit{Faucet(ETH faucet)} is the platform that gives some test tokens to a user to test smart contracts or send transactions before deploying them to the main net \footnote{https://changelly.com/blog/best-ethereum-faucets/}. \\
+\item \textit{Testnets} are the test blockchain networks that perform similarly to the main blockchain (mainnet). This allows developers to execute their contracts on test blockchain freely before executing on main network \footnote{https://blog.infura.io/post/introducing-infuras-eth-testnet-faucet-get-0-5-eth-daily-to-test-your-dapps}.\\
 Infura's new testnet faucet is Sepolia ETH which provides the most reliable and high-volume faucets for developers. \\
-\item \textit{Web3.eth} the package that allows interacting with the Ethereum blockchain. It contains many functions to provide more information about executed smart contracts or transactions on the blockchain. 
-In our case, some functions including: \textit{getBlock}, \textit{getTransaction} and \textit{getTransactionReceipt} are used to provide some more details which are mapped to Ethan ontology objects properties. These retrieved properties would be used later in triple.\\
+\item \textit{Web3.eth} is a package that allows interacting with the Ethereum blockchain. It contains many functions to provide more information about executed smart contracts or transactions on the blockchain \footnote{https://web3js.readthedocs.io/en/v1.2.11/web3-eth.html}. 
+In our case, some functions including: \textit{getBlock}, \textit{getTransaction} and \textit{getTransactionReceipt} are chosen to provide some more details which are mapped to EthOn ontology objects properties. These retrieved properties would be used later in triple.\\
 \item \textit{- knowledge graph} provided to indicate classes and relations.
 The idea is to use a graph-based data model to clarify survived transaction, their classes, and relations in much more detail. 
 \begin{center}
@@ -123,7 +122,8 @@ The idea is to use a graph-based data model to clarify survived transaction, the
 
 \subsection{Backend} The backend of this project relies on the Ethereum platform using smart contracts. In addition, DALICC license library the user can license here/his data or retrieve license information. In the next paragraph, we will more focused on authenticated users as the main challenge in decentralized apps and data licensing systems by users. \\
 \\
-\textbf{Authenticated user} \\
+\textbf{Authenticated user \footnote{https://medium.com/coinmonks/how-to-do-authentication-in-decentralized-application-dapp-d9bc66b6249c}} \\
+\\
 Authentication of users on Ethereum for validation purposes is the essential feature when building dApp.  Therefore, programming the functionality of Ethereum authentication for dApps is important for blockchain developers. 
 In this dApp, we consider two solutions for Ethereum authentications as follows: \\
 \\
@@ -133,10 +133,9 @@ use this address as an owner to license his/her file. \\
 \\
 \textbf{Licensing in smart contract} as follow: \\
 \\
-\textbf{License information} represents three elements: licensor address that is passed by metamask, license of data, and the URI related to this license.\\
-\textbf{Storage license information}: Each smart contract that runs on the Ethereum blockchain would be maintained state in its permanent storage. The license information is stored in its storage and is changeable only by the smart contract itself.\\
-\textbf{Retrieve license information}\\
-As mentioned earlier, only a smart contract can change the data in its memory. Thus, we can consider smart contracts a validating system for license requests. The JavaScript
+\textbf{License information}:\\ It represents three elements: licensor address that is passed by metamask, license of data, and the URI related to this license.\\
+\textbf{Storage license information}: \\Each smart contract that runs on the Ethereum blockchain would be maintained state in its permanent storage. The license information is stored in its storage and is changeable only by the smart contract itself.\\
+\textbf{Retrieve license information}: \\As mentioned earlier, only a smart contract can change the data in its memory. Thus, we can consider smart contracts a validating system for license requests. The JavaScript
 library web3.js is an interface to the Ethereum Network for the frontend of this dApp. This allows the frontend to access the smart contract, retrieving or changing license information.\\
 
 \subsection{Frontend}
@@ -188,7 +187,7 @@ This application encompasses some components:
 			
 			\includegraphics[width=1.5\textwidth]{images/chap03_eth_dalicc_comm.png}
 		\end{minipage}
-		\caption{DApp Architecture}
+		\caption{DApp architecture}
 	\end{figure}
 \end{center}
 
@@ -260,7 +259,7 @@ As mentioned before, the backend code of this application is on the Ethereum net
 			\centering
 			\includegraphics[width=1.95\textwidth]{images/chap03_selectType.jpg}
 		\end{minipage}
-		\caption[Define Type from DALICC library]{Define Type from DALICC library}
+		\caption[Define type from DALICC library]{Define type from DALICC library}
 		
 	\end{figure}
 	
@@ -300,7 +299,7 @@ As mentioned before, the backend code of this application is on the Ethereum net
 			\centering
 			\includegraphics[width=1.95\textwidth]{images/chap03_found_license.png}
 		\end{minipage}
-		\caption[message for licensed data]{message for licensed data}
+		\caption[Message for licensed data]{Message for licensed data}
 		
 	\end{figure}
 	
@@ -316,7 +315,7 @@ As mentioned before, the backend code of this application is on the Ethereum net
 			\centering
 			\includegraphics[width=1.95\textwidth]{images/chap03_found_info.png}
 		\end{minipage}
-		\caption[license information for already licensed data]{license information for already licensed data}
+		\caption[License information for licensed data]{License information for licensed data}
 		
 	\end{figure}
 	
@@ -328,7 +327,7 @@ As mentioned before, the backend code of this application is on the Ethereum net
 			\centering
 			\includegraphics[width=1.95\textwidth]{images/chap03_license_data.png}
 		\end{minipage}
-		\caption[licensing data process]{licensing data process}
+		\caption[Licensing data process]{Licensing data process}
 		
 	\end{figure}
 \end{center}
