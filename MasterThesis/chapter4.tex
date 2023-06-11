@@ -17,7 +17,7 @@ DApp uses the ethereum as backend of its data storage and processing using smart
 	
 \end{center}
 
-\section{DApp and Ethereum Blockchain}
+\section{Ethereum DApp}
 The benefit of using the Ethereum blockchain in DApps are as follows \cite{William}:
  \begin{itemize}
      \item 1- The user can see what is going on before submitting any data.
@@ -51,8 +51,8 @@ Based on Internet definition, it is a type of open-source smart contract applica
 DApp is similar to centralized apps, as they use frontend and backend. But the backend's app is supported by a centralized server or database. And Backend's DApp runs on a decentralized P2P network and is supported by smart contracts which store on the Ethereum blockchain.\\
 \\
 \textbf{Decentralized application characteristic:}\\
-	\textit{Open Source}: all the required are decided on a census of all available users on a network.\\
-	\textit{Decentralized Storage}: data is stored on decentralized blocks.\\
+	\textit{Open source}: All the required are decided on a census of all available users on a network.\\
+	\textit{Decentralized storage}: Data is stored on decentralized blocks.\\
 	\textit{Validation}: As the application runs on blockchain. They offer validation of data using cryptographic tokens which are needed for the network. \\
  \\
 \textbf{Ethereum} \\
@@ -66,18 +66,20 @@ it is explained in section 1.5.5.\\
 \textbf{Java Script Tools} 
 \begin{itemize}
   \item \texttt{Truffle} is the smart contract development tools and testing network for blockchain applications and supports developers who are looking to build their dApp, etc. \\
- Truffle offers some different features: \\
- \textit{- Smart contract Managing}: truffle helps to Manage artifacts of smart contracts used in dApp and supports library linking, deploying, and some other Ethereum dApps. \\
- \hspace{3cm} \textit{- Contract testing system}: Truffle helps developers construct smart contract testing systems for all their contracts. \\
- \textit{- Network management} helps developers by managing their artifacts. \\
- \textit{- Truffle console} allows the developer to access all truffle commands and built contracts \footnote{https://moralis.io/truffle-explained-what-is-the-truffle-suite}.
-\\
+   Truffle offers some different features:
+ \begin{itemize}
+  \item\textit{Smart contract Managing}: Truffle helps to Manage artifacts of smart contracts used in dApp and supports library linking, deploying, and some other Ethereum dApps. \\
+ \item\textit{Contract testing system}: Truffle helps developers construct smart contract testing systems for all their contracts. \\
+ \item\textit{Network management} helps developers by managing their artifacts. \\
+ \item\textit{Truffle console} allows the developer to access all truffle commands and built contracts \footnote{https://moralis.io/truffle-explained-what-is-the-truffle-suite}.
+ \end{itemize}
+
 \item \texttt{React.js} is an open-source JavaScript framework which used as a frontend. In react, a developer builds a web application by using reusable individual components that are assembled from an application's whole user interface.\\
 React has the advantage of providing a feature that combines the speed of JavaScript with a more efficient method of managing DOM to render web pages faster and create more responsive web application \footnote{https://blog.hubspot.com/website/react-js}.\\
 \item \texttt{crypto.js} is the JavaScript library that performs data encryption and decryption. It is a collection of standard algorithms including SHA3-256 \footnote{{https://github.com/jakubzapletal/crypto-js}}.
 \item \texttt{Web3.js} helps developer to connect to Ethereum blockchain. It is a collection of libraries that allows developers to perform some actions like sending ether, checking data from smart contracts, and creating smart contracts \footnote{https://www.datastax.com/guides/what-is-web3.js}.\\
 \item \texttt{axios} provides the HTTP requests from the browser and handles request/response data \footnote{https://axios-http.com/docs/intro}. \\
-\item \texttt{HDwallet provider} is a package helps developer to connect to network by configuring the connection network to the Ethereum blockchain through \textit{infura}. This provider is used by Truffle when we deploy the contract. In addition, meta mask providers are also used when we want to interact with the contract in the browser.\\
+\item \texttt{HDwallet provider} is a package helps developer to connect to network by configuring the connection network to the Ethereum blockchain through \textit{infura}. This provider is used by truffle when we deploy the contract. In addition, metamask providers are also used when we want to interact with the contract in the browser.\\
 HDwallet provider provides a custom URL: 'http://127.0.0.1:7545'. This will spawn a development blockchain locally on port 7545 \footnote{https://github.com/trufflesuite/truffle-hdwallet-provider}. \\
 \item \texttt{Express.js} is node.js framework for authority dApp. It provides HTTP methods (GET, POST) to call functions for particular URL routes \footnote{https://www.simplilearn.com/tutorials/nodejs-tutorial/what-is-express-js}. \\ 
 When we run dApp, we have an HTTP server located on port 3000. \\
@@ -88,7 +90,7 @@ When we run dApp, we have an HTTP server located on port 3000. \\
 \begin{itemize}
 	\item \textit{EthOn Ontology} is semantic view of ethereum blockchain. It encompasses different classes and relations to cover different concepts of Ethereum like blocks, transactions, and messages to formalize RDF triple. We used classes and properties related to transaction concepts as a template to model our transaction to DALICC \footnote{https://axios-http.com/docs/intro}.
 	\item \textit{SPARQL query} is defined in the section 2.1.4.
-	\item \textit{Command-Line SPARQL with Jena} is a utility of Apache Jena that runs queries on remote SPARQL endpoint or RDF files that would be lo located on a local computer or web. We used the command as follows \footnote{http://richard.cyganiak.de/blog/wp-content/uploads/2013/09/jena-sparql-cli-v1.pdf}:\\
+	\item \textit{Command-Line SPARQL} is a utility of Apache Jena that runs queries on remote SPARQL endpoint or RDF files that would be lo located on a local computer or web. We used the command as follows \footnote{http://richard.cyganiak.de/blog/wp-content/uploads/2013/09/jena-sparql-cli-v1.pdf}:\\
 	 - Using Command line : \textit{sparql --data rdfFile --query sparqlFile} 
 \end{itemize}
 \textbf{Ethereum Tools}
@@ -96,12 +98,12 @@ When we run dApp, we have an HTTP server located on port 3000. \\
 \begin{itemize}
 \item \textit{Infura} is a web3 backend and infrastructure-as-a-Service (IaaS) provider that offers a range of tools to help the developer to build dApp to connect to the Ethereum blockchain \footnote{https://blog.infura.io/post/getting-started-with-infura-28e41844cc89}.\\
 \item \textit{Metamask} is a wallet used to interact with the Ethereum blockchain. It allows users to connect network through a browser extension or mobile app. Metamask wallet, including all accounts, each account has its private key \footnote{https://originstamp.com/blog/metamask-what-is-it-and-how-does-it-work/}.\\
-\item \textit{Faucet(ETH faucet)} is the platform that gives some test tokens to a user to test smart contracts or send transactions before deploying them to the main net \footnote{https://changelly.com/blog/best-ethereum-faucets/}. \\
+\item \textit{Faucet(ETH faucet)} is the platform that gives some test tokens to a user to test smart contracts or send transactions before deploying them to the mainnet \footnote{https://changelly.com/blog/best-ethereum-faucets/}. \\
 \item \textit{Testnets} are the test blockchain networks that perform similarly to the main blockchain (mainnet). This allows developers to execute their contracts on test blockchain freely before executing on main network \footnote{https://blog.infura.io/post/introducing-infuras-eth-testnet-faucet-get-0-5-eth-daily-to-test-your-dapps}.\\
 Infura's new testnet faucet is Sepolia ETH which provides the most reliable and high-volume faucets for developers. \\
 \item \textit{Web3.eth} is a package that allows interacting with the Ethereum blockchain. It contains many functions to provide more information about executed smart contracts or transactions on the blockchain \footnote{https://web3js.readthedocs.io/en/v1.2.11/web3-eth.html}. 
 In our case, some functions including: \textit{getBlock}, \textit{getTransaction} and \textit{getTransactionReceipt} are chosen to provide some more details which are mapped to EthOn ontology objects properties. These retrieved properties would be used later in triple.\\
-\item \textit{- knowledge graph} provided to indicate classes and relations.
+\item \textit{Knowledge graph} indicates classes and relations.
 The idea is to use a graph-based data model to clarify survived transaction, their classes, and relations in much more detail. 
 \begin{center}
 	
@@ -128,26 +130,27 @@ Authentication of users on Ethereum for validation purposes is the essential fea
 In this dApp, we consider two solutions for Ethereum authentications as follows: \\
 \\
 \textit{- login to metamask:} Metamask is the most popular cryptocurrency wallet (Ethereum account) to support the Ethereum blockchain. Additionally, metamask is a bridge for web3 authentication to an Ethereum-based decentralized application. By logging into Metamsk, users can submit transactions or check the stored data on the blockchain.\\
-\textit{- Using smart contract: } The address of the metamask is passed to smart contract as a licensor, then it will
+\\
+\textit{- Using smart contract:} The address of the metamask is passed to smart contract as a licensor, then it will
 use this address as an owner to license his/her file. \\
 \\
 \textbf{Licensing in smart contract} as follow: \\
 \\
 \textbf{License information}:\\ It represents three elements: licensor address that is passed by metamask, license of data, and the URI related to this license.\\
 \textbf{Storage license information}: \\Each smart contract that runs on the Ethereum blockchain would be maintained state in its permanent storage. The license information is stored in its storage and is changeable only by the smart contract itself.\\
-\textbf{Retrieve license information}: \\As mentioned earlier, only a smart contract can change the data in its memory. Thus, we can consider smart contracts a validating system for license requests. The JavaScript
-library web3.js is an interface to the Ethereum Network for the frontend of this dApp. This allows the frontend to access the smart contract, retrieving or changing license information.\\
+\textbf{Retrieve license information}: \\As mentioned earlier, only a smart contract can change the data in its memory. Thus, we can consider smart contract as validating system for license requests. The JavaScript
+library web3.js is an interface to the Ethereum network for the frontend of this dApp. This allows the frontend to access the smart contract, retrieving or changing license information.\\
 
 \subsection{Frontend}
- Frontend of this project build on React.js, HTML, and CSS. The React js used in this front-end for the user interface.\\
+ Frontend of this project build on React.js, HTML, and CSS. The React.js used in this frontend for the user interface.\\
  \\
  \textbf{User roadmap}\\
- The licensing Data from the user interface includes three phases:
+ The licensing data from the user interface includes three phases:
  \begin{itemize}
- 	\item The user gets asked to select to license type from which to be loaded from Dalicc Library via Axios and get a request in frontend. Then, after selecting data in the next field, the user should check the file, if the selected file is already licensed or not. Depending on this verification, the user receives either the confirmation message 'License detected' or the rejection message 'License not detected'. 
+ 	\item The user gets asked to select to license type from which to be loaded from DALICC Library via Axios and get a request in frontend. Then, after selecting data in the next field, the user should check the file, if the selected file is already licensed or not. Depending on this verification, the user receives either the confirmation message 'License detected' or the rejection message 'License not detected'. 
  	\item The user should go further by pressing the 'License Data/ retrieve license' button to get license information for the confirmation message of the last phase or license his/her file.\\
- License information contains some information like license type, license URI retrieved from the DALICC library, and the address of the owner of this license. For licensing data, the user gets asked to log in to Metamask for the authentication process and this address would be passed to smart contract as owner of this license. The licensing process will be done by receiving the hash value of licensed data.
- 	\item In the last phase, the user can observe receipt of this transaction in a table that contains transaction details from the interaction between \textit{web3.eth} and \textit{ethOn ontology}.
+ License information contains some information like license type, license URI retrieved from the DALICC library, and the address of the owner of this license. For licensing data, the user gets asked to log in to metamask for the authentication process and this address would be passed to smart contract as owner of this license. The licensing process will be done by receiving the hash value of licensed data.
+ 	\item In the last phase, the user can observe receipt of this transaction in a table that contains transaction details from the interaction between \textit{web3.eth} and \textit{ethOn} ontology.
  \end{itemize}
  \begin{center}
  	
@@ -198,13 +201,13 @@ This section comprises the implementation details in a smart contract and some m
 As mentioned before, the backend code of this application is on the Ethereum network. in this section, we will contemplate more on each functionality of the contract in this dApp.
 \begin{itemize}
 	\item \textit{Owned contract} \\
-	This smart contract contains the function to prevent non-owner users to call the function and the owner as the constructor to be usable in every contract which is called to. This contract provides a function that helps us to restrict access to some function in another contract that would be called later by them. \\
+	This smart contract contains the function to prevent non-owner users to call the function. This contract contains a function that helps us to restrict access to some function in another contract. \\
 	\item \textit{PrimaryLicenseContract} \\
 	This is the main contract that communicates with two other contracts to represent the public interface of the licensing system. It provides functions to licensing data or retrieves license information. \\
    \item \textit{LicenseManager contract} \\
 	This smart contract is responsible for saving the address of the license or creating one for the new file. \\
 	\item \textit{License contract} \\
-	In this contract, the hash value and licensor address would be stored here. License contracts represent only one license and associate license contract for this license. The license contract should have been created by the license manager.
+	The hash value and licensor address would be stored in this contract. License contracts represent only one license and associate license contract for this license. The license contract should have been created by the license manager.
 
 \end{itemize}
 
@@ -235,11 +238,11 @@ As mentioned before, the backend code of this application is on the Ethereum net
 	\begin{itemize}
 		\item \textit{licenseData} function check if the specified hash is linked to a license and the caller is licensor, then \textit{deleteHash} is called and the hash of related data and address of licensor would be passed. \\
 		\hspace{1cm} \textbf{Definition} \textit{deleteHash}: This function is accessible just for the owner (function caller), which means the caller of this function must be the owner and the passed address should be the licensor. Then the link between the hash and license will be dropped.
-		\item \textit{getOrCreateLicenseForUri} of the license Manager is called and the URI of the selected data as input parameter would be passed and returns the address to license contract which represents this URI.\\
+		\item \textit{getOrCreateLicenseForUri} of the license manager is called and the URI of the selected data as input parameter would be passed and returns the address to license contract which represents this URI.\\
 		\hspace{1cm} \textbf{Definition} \textit{getOrCreateLicenseForUri}: This function checks if the caller of this function is the owner, then exists a license contract for a given URI. If so, the address of this license contract would be returned. Otherwise, a new license contract will be created and the address of the contract will be stored and returned. The caller's address of the caller also will be used later as the owner of this contract.
 		\item \textit{addHash} function of the License contract is called with two parameters: the first one if the hash of data, and the second one is the function caller.\\
 		\hspace{1cm} \textbf{Definition} \textit{addHash}: This function is accessible just for the owner (function caller), the link between the hash value and the license is created. The second parameter would be stored also as licensor. \\
-		\item At the end, the event should be emitted to fire the new changes in PrimaryLicenseContarct.
+		\item At the end, the event should be emitted to fire the new changes in \textit{PrimaryLicenseContarct}.
 		
 	\end{itemize}
 	\item \textbf{Change license data} \\
