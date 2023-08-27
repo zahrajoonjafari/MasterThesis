@@ -1,31 +1,28 @@
 \chapter{DALICC}
-According to Pellegrini \cite{Tassilo}, DALICC stands for Data Licenses Clearance Center. It is a software framework that helps people legally secure data from a third party, detect licensing conflicts, and reduce the costs of rights clearance by enabling automated clearance rights in the creation of derivative works \cite{Tassilo}. \\
+Data Licensing Clearance Center, according to Pellegrini \cite{Tassilo}, is known as DALICC. It is a software framework that enables automatic rights clearance throughout the production of derivative works, assisting users in protecting data from unauthorized third parties, identifying license problems, and lowering the cost of rights clearance \cite{Tassilo}. \\
 \\
-\textbf{Rights Expression Language (RELs)} are used to explain machine-readable form of rights for access management and digital asset. The most popular  several RELs vocabularies  such as MPEG-21, ODRL-2.0, ccREL, XACML and WAC that serve the rights management in different areas like data licensing, application, etc\cite{Anna}.\\
+\textbf{Rights Expression Language (RELs)}These are used to convey rights in a machine-readable format for digital assets and access control. The most widely used RELs are MPEG-21, ODRL-2.0, ccREL, XACML, and WAC, which are used for rights management in a variety of contexts such as data licensing, applications, etc \cite{Anna}.\\
 \\
 \section{DALICC Requirements}
-\\
-The following requirements would be addressed by the DALICC framework: \\
+The following requirements would be addressed by the DALICC framework: 
 \begin{itemize}
-\item \textit{Tackling license heterogeneity:} \\
-It is possible to combine the various contents that have the same license with different names. But that would make it much more difficult to license the result of the combined contents. To solve this issue, DALICC provides a set of machine-readable representations of licenses that allow us to compare licenses to each other to identify the equivalent licenses. It guides the user to possible conflicts between various combined licenses.
-\item \textit{Tackling REL heterogeneity:} \\
-Combining licenses is simple if they are expressed through the same RELs. But it is difficult to compare licenses that have been represented by different RELs. \\
-DALICC resolves this problem by representing RELs based on the semantic web and mapping the terms to each other. It will represent exiting RELs based on W3C-approved standards, thus allowing mapping between various RELs to be created.
-\item \textit{Compatibility check, conflict detection, and neutrality of the rules:} \\
-It is difficult to be sure the meaning of the different terms in semantics is aligned. These problems result from indicating the classes, instances, and properties, which cannot be handled just by mapping. \\
-This is where DALICC comes into play and helps the user with a workflow that defines the usage context and then gathers additional information to detect conflicts and ambiguous concepts. Based on this information, DALICC makes reasoning over the set of licenses and infers instructions to the user on how to process the license processing. \\
-\item \textit{Legal validity of representations and machine recommendations:} \\
-According to Anna Fensel et al. \cite{Anna}, the semantic complexity of licensing issues means that the semantics of RELs must be aligned within the specific application scenario. This includes a correct interpretation of the various national legislation according to the country of origin of a jurisdiction (i.e., German Urheberrecht vs. US copyright), the resolution of problems that are derived from multilingual, and the consideration of existing case law in the resolution of licensing conflicts \cite{Anna}.\\
-To solve this problem, DALICC will check the legal validity of machine-readable licenses and the compatibility of reasoning engine output with the law. DALICC output will be tested against the law, checked for semantic precision derived from different languages, and adjusted accordingly \cite{Anna}.
-	
+\item \textit{Tackling license heterogeneity:} 
+Combining different contents with the same license but different names is possible. But in that case, obtaining a license for the resulting contents would be much more challenging. DALICC offers a set of machine-readable representations of licenses that address this problem by enabling us to compare licenses to one another and identify equivalent licenses. It directs the user to potential inconsistencies between numerous combined licenses.
+\item \textit{Tackling REL Heterogeneity:} \\
+If licenses are represented using the same RELs, combining them is easy. Comparing licenses that have been represented by various RELs is challenging, however. This issue is fixed by DALICC by presenting RELs based on the Semantic Web and mapping the terms to one another. It will reflect current RELs based on W3C-approved standards, enabling the creation of mapping between different RELs.
+\item \textit{Compatibility Check, Conflict Detection, and Neutrality of the Rules:}\\
+It might be challenging to determine whether the various terminologies used in semantics have the same meaning. These issues arise from listing the classes, instances, and properties that are incompatible with simple mapping. \\
+Here, DALICC steps in to assist the user with a procedure that establishes the usage context before gathering more data to find conflicts and unclear ideas. Based on this data, DALICC analyzes the collection of licenses and deduces directions for the user to follow while processing licenses. \\
+\item \textit{Legal Validity of Representations and Machine Recommendations:} \\
+The semantic intricacy of licensing concerns necessitates that the semantics of RELs be in line with the particular application scenario, according to Anna Fensel et al., \cite{Anna}. This includes interpreting the various national laws correctly based on the country of jurisdiction (e.g., German Urheberrecht vs. US copyright), solving multilingualism-related issues, and taking into account existing case law when resolving licensing disputes, to \cite{Anna}.\\
+DALICC will examine the legality of machine-readable licenses and the conformity of reasoning engine output with the legislation to address this issue. The output of DALICC will be compared to the law, evaluated for semantic accuracy generated from several languages, and changed as necessary. \cite{Anna}.
 \end{itemize}
 \\
 \section{DALICC Software Architecture}
-To address the above challenges DALICC framework consists of four components:\\
+To address the above challenges, the DALICC framework consists of four components:\\
 \begin{itemize}
-	\item \textbf{License composer} is a tool that allowed the license to be created from a set of questions that are mapped to ODRL, ccREL, and the DALICC vocabularies and concepts.
-	\item \textbf{License library} is a repository that represents licenses in a machine-readable format, the former as ORDL policies and the letters as plain text.
-	\item \textbf{License annotator} allows attaching licenses to the dataset, either by choosing available licenses in the license library or creating a new license using license composer.
-	\item \textbf{License negotiator} as a main component in the DALICC framework that checks the license compatibility and supports license conflicts by detecting equivalence licenses having various names \cite{Anna}.
+	\item \textbf{License composer}is a tool that enables the license to be generated from a set of questions that are mapped to the vocabulary and concepts of the ODRL, ccREL, and the DALICC.
+	\item \textbf{License library} is a repository that represents licenses in plain text and ODRL policies in a machine-readable format.
+	\item \textbf{License annotator}  enables adding licenses to the dataset by selecting them from the license library's selection or by writing a new license using the license composer.
+	\item \textbf{License negotiator} serves as the primary element of the DALICC system, ensuring licensing compatibility and resolving license conflicts by identifying equivalence licenses with different names \cite{Anna}.
 \end{itemize}
