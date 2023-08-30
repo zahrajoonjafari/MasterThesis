@@ -1,7 +1,7 @@
 \chapter{Smart Contract and Distributed Ledger Technology}
 With the development of technology, money transfers take place through networks, and we now need to update database entries that are governed by centralized institutions like banks. All of these procedures call for a third party to carry out the proper business dealings between unidentified parties. \\
 Having third parties can lead to a number of issues, including the control of the entire transaction by a single authority and the invalidation of any transaction that accomplishes its goal. The new concept of a distributed ledger can be used to alleviate all of these problems. With this new technology, third parties are no longer necessary, and all transactions may be completed quickly between parties via a public network.\\
-With the distributed ledger, it is impossible to alter transactions that are recorded in a ledger or identify the persons involved in these transactions \cite {Masood}. 
+With the distributed ledger, it is impossible to alter transactions recorded in a ledger or identify the persons involved in these transactions \cite {Masood}. 
 \section{Ledger} 
 A ledger is a book or computer that keeps track of financial system transactions. There are two separate ledgers that look like this: \\
 \textbf{Centralized Ledger} includes all recording of transactions involving firm resources, expenses, libraries, etc.\\
@@ -50,8 +50,8 @@ Blockchain is associated with cryptocurrencies like Ethereum, Bitcoin, Litecoin,
 \end{itemize}
 \\
 \textbf{Type of Blockchain}
-Blockchain is used to transmit information across a secure network, according to Aithal et al., \cite{Aithal}. Public and private networks were the two main types of blockchain technology. Blockchain technology can alternatively be categorized as consortium blockchain technology or hybrid blockchain technology, according to further investigation \cite{Aithal}. \\
-All blockchains, it should be mentioned, are node-based and run on P2P (peer-to-peer) networks. According to Aithal et al., \cite{Aithal}there are three different kinds of blockchain: consortium blockchain, private blockchain, and public blockchain. The hybrid blockchain is an additional type of blockchain that exists \cite{Aithal}.
+Blockchain is used to transmit information across a secure network, according to Aithal et al. \cite{Aithal}. Public and private networks were the two main types of blockchain technology. Blockchain technology can alternatively be categorized as consortium blockchain technology or hybrid blockchain technology, according to further investigation \cite{Aithal}. \\
+All blockchains, it should be mentioned, are node-based and run on P2P (peer-to-peer) networks. According to Aithal et al. \cite{Aithal}, there are three different kinds of blockchain: consortium blockchain, private blockchain, and public blockchain. The hybrid blockchain is an additional type of blockchain that exists \cite{Aithal}.
 \begin{itemize}
     \item \textbf{Public Blockchain} is the main variety of blockchain that is open and decentralized by nature. Anyone is allowed to join the network and establish consensus in this system. Any miner (participant) on a public blockchain can develop consensus techniques like proof of work and proof of stake to validate transactions with a low validity rate \cite{Kalra}.
     \item \textbf{Private Blockchain} is not open and restricted in this way that Only authorized participants have the ability to validate transactions. As a result, it offers improved privacy, enhances scalability, and reduces security concerns. All participants in this network are known, hence there are no mining computations necessary for this blockchain to establish a consensus \cite{Kalra}. 
@@ -127,25 +127,24 @@ The input to the hash function is referred to as a \textit{message}, and the out
 \end{center}
 
 On the Ethereum network, gas is the fuel that must be purchased prior to completing a transaction. The consumed gas will not be refunded if the transaction is rolled back \cite{Egbertsen}.\\
-\begin{itemize}
-    \item \textbf{Transaction}
-    A transaction is a cryptography-signed instruction that is carried out by an external actor, which can be a person or another contract, according to Gavin Wood et al. \cite{Gavin}. The transaction describes these fields:
+\textbf{Transaction}
+ A transaction is a cryptography-signed instruction that is carried out by an external actor, which can be a person or another contract, according to Gavin Wood et al. \cite{Gavin}. The transaction describes these fields:
      \begin{itemize}
          \item \textit{Nonce} is the number of transactions sent by the sender.
          \item \textit{GasPrice} is the number of wei to be paid per unit of gas.
          \item \textit{GasLimit} is the amount of gas that can be used for transactions.
          \item \textit{To} is the address to which that contract sends a transaction.
          \item \textit{Value} is the number of wei that is transferred in the transaction.
-     \end{itemize}
-        \item \textbf{is sent by a contract and has the same attributes as a transaction, but $gasPrice$ is not included \cite{Egbertsen}.
-\end{itemize}
+    \end{itemize}
+\textbf{Message} is sent by a contract and has the same attributes as a transaction, but $gasPrice$ is not included \cite{Egbertsen}.\\
 \subsection{Contract}
 It is an Ethereum blockchain account that is managed by code and has its own code. Every time a message is received, the contract's internal code is activated, enabling it to read and write contract storage or send messages.\\
 A contract in Ethereum is an autonomous agent that executes when it receives a message or transaction and has control over its balance and the key/value stored as constant variables. This means that the contract is an autonomous agent that carries out some operations that are programmed to achieve the user's goals. \\
 The contract's long-lasting keys and values are used when the contract begins to function \cite{Egbertsen}.
+
 \subsection{Smart Contract}
 Nick Szabo \cite{Szabo} first popularized the phrase "smart contract" in 1994 after realizing that DLT might also be used for them. \\
-The definition of a smart contract is given by Nick Szabo \footnote{https://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature/LOTwinterschool2006/szabo.best.vwh.net/smart.contracts.html}: \textit{Smart contract is a computerized transaction protocol that executes the terms of a contract}. He had an idea for how to design contracts that automatically and effectively enforce the terms between the parties to a transaction. \\
+The definition of a smart contract is given by Nick Szabo \footnote{https://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature-\break /LOTwinterschool2006/szabo.best.vwh.net/smart.contracts.html}: \textit{Smart contract is a computerized transaction protocol that executes the terms of a contract}. He had an idea for how to design contracts that automatically and effectively enforce the terms between the parties to a transaction. \\
 Each node executes a smart contract as part of the block-building process. When a transaction occurs on the blockchain, a block is created.
 Each smart contract has its own address, which is an essential component. A node can construct a specific transaction by giving it a contract address and carrying the contract code, which makes it possible for this transaction to execute the contract code at the time of formation.
 The address won't ever change after that because the contract will become a permanent part of the block. A message should be sent to the contract's address that contains the method and input data whenever a node wants to invoke a method inside the contract. \\
