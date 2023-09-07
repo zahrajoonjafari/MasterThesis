@@ -1,7 +1,7 @@
 \chapter{Implementation: DApp}
 DApp is frequently characterized as P2P, trustless, with the unique quality that it cannot be controlled by a single server. DApps have at least one user interface or frontend, which could be a desktop program running on a PC or a mobile app.
 A single organization or business may give the application's data, or end users may do it directly.
-DApp processes and stores data using smart contracts on Ethereum as the backend. DApp user interfaces typically resemble standard websites, but they also include one or more smart contracts \cite{William}.
+DApp processes and stores data using smart contracts on Ethereum as the backend. DApp user interfaces typically resemble standard websites, but they also include one or more smart contracts\footnote{https://github.com/zahrajoonjafari/MasterThesis/tree/master/ontology-dalicc-connector} \cite{William}.
 
 \begin{center}
 	
@@ -56,10 +56,10 @@ DApp is similar to centralized apps, as they use frontend and backend. The backe
 	\textit{Validation}: As the application runs on blockchain, they offer validation of data using cryptographic tokens which are needed for the network. \\
  \\
 \textbf{Ethereum} \\
-it is explained in section 1.4.\\
+It is explained in section 1.4.\\
 \\
 \textbf{Solidity} \\
-it is explained in section 1.5.5.\\
+It is explained in section 1.5.5.\\
 \\
 \textbf{SHA3-256} \\It is explained in section 1.5.3.\\
 \\
@@ -71,38 +71,38 @@ it is explained in section 1.5.5.\\
 \item\textit{Smart Contract Management}: Truffle helps to manage artifacts of smart contracts used in dApp and supports library linking, deploying, and other Ethereum dApps. \\
  \item\textit{Contract Testing System}: Truffle helps developers construct smart contract testing systems for all their contracts. \\
  \item\textit{Network Management} helps developers by managing their artifacts. \\
- \item\textit{Truffle Console} allows the developer to access all Truffle commands and build contracts \footnote{https://moralis.io/truffle-explained-what-is-the-truffle-suite}.
+ \item\textit{Truffle Console} allows the developer to access all Truffle commands and build contracts\footnote{https://moralis.io/truffle-explained-what-is-the-truffle-suite}.
  \end{itemize}
 
 \item \texttt{React.js} is an open-source JavaScript framework which is used as a frontend. In React, a developer builds a web application by using reusable individual components that are assembled from an application's whole user interface.\\
-React has the advantage of providing a feature that combines the speed of JavaScript with a more efficient method of managing DOM to render web pages faster and create more responsive web applications.\footnote{https://blog.hubspot.com/website/react-js}.\\
-\item \texttt{crypto.js} is the JavaScript library that performs data encryption and decryption. It is a collection of standard algorithms including SHA3-256 \footnote{{https://github.com/jakubzapletal/crypto-js}}.
-\item \texttt{Web3.js} helps developers to connect to the Ethereum blockchain. It is a collection of libraries that allows developers to perform such actions as sending ether, checking data from smart contracts, and creating smart contracts \footnote{https://www.datastax.com/guides/what-is-web3.js}.\\
-\item \texttt{axios} provides HTTP requests from the browser and handles request/response data \footnote{https://axios-http.com/docs/intro}.\\
+React has the advantage of providing a feature that combines the speed of JavaScript with a more efficient method of managing DOM to render web pages faster and create more responsive web applications\footnote{https://blog.hubspot.com/website/react-js}.\\
+\item \texttt{crypto.js} is the JavaScript library that performs data encryption and decryption. It is a collection of standard algorithms including SHA3-256\footnote{{https://github.com/jakubzapletal/crypto-js}}.
+\item \texttt{Web3.js} helps developers to connect to the Ethereum blockchain. It is a collection of libraries that allows developers to perform such actions as sending ether, checking data from smart contracts, and creating smart contracts\footnote{https://www.datastax.com/guides/what-is-web3.js}.\\
+\item \texttt{axios} provides HTTP requests from the browser and handles request/response data\footnote{https://axios-http.com/docs/intro}.\\
 \item \texttt{HDWalletProvider} is a package that helps developers to connect to a network by configuring the connection to the Ethereum blockchain through \textit{Infura}. This provider is used by Truffle when deploying contracts. In addition, MetaMask providers are also used when we want to interact with the contract in the browser. 
 
-HDWalletProvider provides a custom URL: 'http://127.0.0.1:7545'. This will spawn a development blockchain locally on port 7545 \footnote{https://github.com/trufflesuite/truffle-hdwallet-provider}. \\
-\item \texttt{Express.js} is a Node.js framework for developing dApps. It provides HTTP methods (GET, POST) to call functions for particular URL routes \footnote{https://www.simplilearn.com/tutorials/nodejs-tutorial/what-is-express-js}. \\ 
+HDWalletProvider provides a custom URL: 'http://127.0.0.1:7545'. This will spawn a development blockchain locally on port 7545\footnote{https://github.com/trufflesuite/truffle-hdwallet-provider}. \\
+\item \texttt{Express.js} is a Node.js framework for developing dApps. It provides HTTP methods (GET, POST) to call functions for particular URL routes\footnote{https://www.simplilearn.com/tutorials/nodejs-tutorial/what-is-express-js}. \\ 
 When we run a dApp, we have an HTTP server located on port 3000. \\
-\item \texttt{FS} provides some functionality to interact with the file system, mostly used functions like: \textit{readFileSync}, \textit{writeFileSync} and \textit{appendFileSync} \footnote{https://blog.risingstack.com/fs-module-in-node-js/}. \\
+\item \texttt{FS} provides some functionality to interact with the file system, mostly used functions like: \textit{readFileSync}, \textit{writeFileSync} and \textit{appendFileSync}\footnote{https://blog.risingstack.com/fs-module-in-node-js/}. \\
 \end{itemize}
 
 \textbf{Semantic Web Tools}\\
 \begin{itemize}
-	\item \textit{EthOn Ontology} is a semantic view of the Ethereum blockchain. It encompasses different classes and relations to cover different concepts of Ethereum such as blocks, transactions, and messages to formalize RDF triples. We used classes and properties related to transaction concepts as a template to model our transaction to DALICC \footnote{https://axios-http.com/docs/intro}.
+	\item \textit{EthOn Ontology} is a semantic view of the Ethereum blockchain. It encompasses different classes and relations to cover different concepts of Ethereum such as blocks, transactions, and messages to formalize RDF triples. We used classes and properties related to transaction concepts as a template to model our transaction to DALICC\footnote{https://axios-http.com/docs/intro}.
 	\item \textit{SPARQL query} is defined in Section 2.1.4.
-	\item \textit{Command-Line SPARQL} is a utility of Apache Jena that runs queries on remote SPARQL endpoints or RDF files located on a local computer or web. We used the command as follows \footnote{http://richard.cyganiak.de/blog/wp-content/uploads/2013/09/jena-sparql-cli-v1.pdf}:\\
+	\item \textit{Command-Line SPARQL} is a utility of Apache Jena that runs queries on remote SPARQL endpoints or RDF files located on a local computer or web. We used the command as follows\footnote{http://richard.cyganiak.de/blog/wp-content/uploads/2013/09/jena-sparql-cli-v1.pdf}:\\
 	 - Using command line : \textit{sparql --data rdfFile --query sparqlFile}
 \end{itemize}
 \textbf{Ethereum Tools}
 
 \begin{itemize}
-\item \textit{Infura} is a web3 backend and infrastructure-as-a-Service (IaaS) provider that offers a range of tools to help developers build dApps to connect to the Ethereum blockchain \footnote{https://blog.infura.io/post/getting-started-with-infura-28e41844cc89}.\\
-\item \textit{Metamask} is a wallet used to interact with the Ethereum blockchain. It allows users to connect to the network through a browser extension or mobile app. Metamask wallet stores all accounts, each account having its own private key \footnote{https://originstamp.com/blog/metamask-what-is-it-and-how-does-it-work/}.\\
-\item \textit{Faucet (ETH faucet)} is the platform that gives some test tokens to a user to test smart contracts or send transactions before deploying them to the mainnet \footnote{https://changelly.com/blog/best-ethereum-faucets/}. \\
-\item \textit{Testnets} are the test blockchain networks that behave similarly to the main blockchain (mainnet). This allows developers to execute their contracts on the test blockchain freely before executing on the main network \footnote{https://blog.infura.io/post/introducing-infuras-eth-testnet-faucet-get-0-5-eth-daily-to-test-your-dapps}. \\
+\item \textit{Infura} is a web3 backend and infrastructure-as-a-Service (IaaS) provider that offers a range of tools to help developers build dApps to connect to the Ethereum blockchain\footnote{https://blog.infura.io/post/getting-started-with-infura-28e41844cc89}.\\
+\item \textit{Metamask} is a wallet used to interact with the Ethereum blockchain. It allows users to connect to the network through a browser extension or mobile app. Metamask wallet stores all accounts, each account having its own private key\footnote{https://originstamp.com/blog/metamask-what-is-it-and-how-does-it-work/}.\\
+\item \textit{Faucet (ETH faucet)} is the platform that gives some test tokens to a user to test smart contracts or send transactions before deploying them to the mainnet\footnote{https://changelly.com/blog/best-ethereum-faucets/}. \\
+\item \textit{Testnets} are the test blockchain networks that behave similarly to the main blockchain (mainnet). This allows developers to execute their contracts on the test blockchain freely before executing on the main network\footnote{https://blog.infura.io/post/introducing-infuras-eth-testnet-faucet-get-0-5-eth-daily-to-test-your-dapps}. \\
 Infura's new testnet faucet is Sepolia ETH which provides the most reliable and high-volume faucets for developers.\\
-\item \textit{Web3.eth} is a package that allows interacting with the Ethereum blockchain. It contains many functions to provide more information about executed smart contracts or transactions on the blockchain \footnote{https://web3js.readthedocs.io/en/v1.2.11/web3-eth.html}. 
+\item \textit{Web3.eth} is a package that allows interacting with the Ethereum blockchain. It contains many functions to provide more information about executed smart contracts or transactions on the blockchain\footnote{https://web3js.readthedocs.io/en/v1.2.11/web3-eth.html}. 
 In our case, some functions including: \textit{getBlock}, \textit{getTransaction} and \textit{getTransactionReceipt} are chosen to provide some more details which are mapped to EthOn ontology objects properties. These retrieved properties would be used later in triples.\\
 \item \textit{Knowledge graph} indicates classes and relations.
 The idea is to use a graph-based data model to clarify survived transactions, their classes, and relations in much more detail.
@@ -125,7 +125,7 @@ The idea is to use a graph-based data model to clarify survived transactions, th
 
 \subsection{Backend} The backend of this project relies on the Ethereum platform using smart contracts. In addition, DALICC license library the user can license their data or retrieve license information. In the next paragraph, we will focus more on authenticated users as the main challenge in decentralized apps and data licensing systems by users.\\
 \\
-\textbf{Authenticated user \footnote{https://medium.com/coinmonks/how-to-do-authentication-in-decentralized-application-dapp-d9bc66b6249c}} \\
+\textbf{Authenticated user\footnote{https://medium.com/coinmonks/how-to-do-authentication-in-decentralized-application-dapp-d9bc66b6249c}} \\
 \\
 Authentication of users on Ethereum for validation purposes is an essential feature when building dApps. Therefore, programming the functionality of Ethereum authentication for dApps is important for blockchain developers. 
 In this dApp, we consider two solutions for Ethereum authentication as follows: \\

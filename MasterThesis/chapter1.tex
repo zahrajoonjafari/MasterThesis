@@ -73,10 +73,10 @@ The blockchain contains some information that we have utilized in our project. T
 			\centering
 			\includegraphics[width=1.95\textwidth]{images/chap01_Blockchain.png}
 		\end{minipage}
-		\caption[Block contents]{Block contents \footnote{https://archive.researchworld.com/three-ways-that-blockchain-can-improve-the-quality-of-market-research/}}
-		
+		\caption[Block contents]{Block contents\protect\footnotemark}
 	\end{figure}
-	
+
+  \footnotetext{https://archive.researchworld.com/three-ways-that-blockchain-can-improve-the-quality-of-\break market-research/}
 \end{center}
 \begin{itemize}
    \item \textbf{Block} as a data structure within the blockchain, contains different functions, which include transaction hashes and some other additional information for blockchain technology. following information was described by Gavin Wood et al. \cite{Gavin} and we used it in our project: \\
@@ -144,7 +144,7 @@ The contract's long-lasting keys and values are used when the contract begins to
 
 \subsection{Smart Contract}
 Nick Szabo \cite{Szabo} first popularized the phrase "smart contract" in 1994 after realizing that DLT might also be used for them. \\
-The definition of a smart contract is given by Nick Szabo \footnote{https://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature-\break /LOTwinterschool2006/szabo.best.vwh.net/smart.contracts.html}: \textit{Smart contract is a computerized transaction protocol that executes the terms of a contract}. He had an idea for how to design contracts that automatically and effectively enforce the terms between the parties to a transaction. \\
+The definition of a smart contract is given by Nick Szabo\footnote{https://www.fon.hum.uva.nl/rob/Courses/InformationInSpeech/CDROM/Literature-\break /LOTwinterschool2006/szabo.best.vwh.net/smart.contracts.html}: \textit{Smart contract is a computerized transaction protocol that executes the terms of a contract}. He had an idea for how to design contracts that automatically and effectively enforce the terms between the parties to a transaction. \\
 Each node executes a smart contract as part of the block-building process. When a transaction occurs on the blockchain, a block is created.
 Each smart contract has its own address, which is an essential component. A node can construct a specific transaction by giving it a contract address and carrying the contract code, which makes it possible for this transaction to execute the contract code at the time of formation.
 The address won't ever change after that because the contract will become a permanent part of the block. A message should be sent to the contract's address that contains the method and input data whenever a node wants to invoke a method inside the contract. \\
